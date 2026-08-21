@@ -27,6 +27,7 @@ const themes = [
     passages: [
       ["1-corinthians-15-20-28", "1 Corinthians 15:20–28"],
       ["hebrews-2-14", "Hebrews 2:14"],
+      ["revelation-1-5", "Revelation 1:5"],
       ["revelation-1-18", "Revelation 1:18"],
     ],
   },
@@ -86,7 +87,7 @@ const translationNames = {
   NLT: "New Living Translation",
 };
 
-const state = { translation: "KJV", kjv: null, requestId: 0 };
+const state = { translation: "KJV", requestId: 0 };
 const content = document.querySelector("#passage-content");
 const title = document.querySelector("#translation-title");
 const notice = document.querySelector("#notice");
@@ -151,16 +152,6 @@ async function loadTranslation(translation) {
   content.innerHTML = `<div class="loading-state"><span class="spinner" aria-hidden="true"></span><p>Loading ${translationNames[translation]}…</p></div>`;
 
   try {
-    if (translation === "KJV") {
-      if (!state.kjv) {
-        const response = await fetch("public/data/kjv.json");
-        if (!response.ok) throw new Error("KJV text is unavailable.");
-        state.kjv = await response.json();
-      }
-      if (requestId === state.requestId) renderThemes(state.kjv, translation);
-      return;
-    }
-
     const response = await fetch(`/api/passages?translation=${translation}`);
     const result = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(result.message || `${translation} is not configured.`);
@@ -168,8 +159,14 @@ async function loadTranslation(translation) {
   } catch (error) {
     if (requestId !== state.requestId) return;
     showNotice(`${translation} needs a licensed connection`, error.message);
-    state.translation = "KJV";
-    loadTranslation("KJV");
+    if (translation !== "KJV") {
+      loadTranslation("KJV");
+      return;
+    }
+    content.innerHTML = `
+      <div class="loading-state">
+        <p>Scripture text could not be loaded. Please check the API.Bible connection.</p>
+      </div>`;
   }
 }
 

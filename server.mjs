@@ -16,6 +16,7 @@ const references = {
   "revelation-3-17": "REV.3.17",
   "1-corinthians-15-20-28": "1CO.15.20-1CO.15.28",
   "hebrews-2-14": "HEB.2.14",
+  "revelation-1-5": "REV.1.5",
   "revelation-1-18": "REV.1.18",
   "1-corinthians-15-22-23": "1CO.15.22-1CO.15.23",
   "1-thessalonians-4-13-17": "1TH.4.13-1TH.4.17",
@@ -45,12 +46,24 @@ async function apiFetch(path) {
 }
 
 async function getBibleId(translation) {
-  const cached = cache.get(`bible:${translation}`);
+  const cacheKey = `bible:${translation}`;
+  const cached = cache.get(cacheKey);
   if (cached) return cached;
-  const { data } = await apiFetch(`/bibles?language=eng&abbreviation=${encodeURIComponent(translation)}&include-full-details=false`);
-  const match = data.find((bible) => bible.abbreviationLocal?.toUpperCase() === translation || bible.abbreviation?.toUpperCase().endsWith(translation));
+
+  let bibles = cache.get("bibles:english");
+  if (!bibles) {
+    const result = await apiFetch("/bibles?language=eng&include-full-details=false");
+    bibles = result.data;
+    cache.set("bibles:english", bibles);
+  }
+
+  const match = bibles.find((bible) => {
+    const local = bible.abbreviationLocal?.toUpperCase();
+    const abbreviation = bible.abbreviation?.toUpperCase();
+    return local === translation || abbreviation === translation || abbreviation?.endsWith(translation);
+  });
   if (!match) throw new Error(`${translation} is not included in this API.Bible account.`);
-  cache.set(`bible:${translation}`, match.id);
+  cache.set(cacheKey, match.id);
   return match.id;
 }
 
@@ -95,9 +108,14 @@ createServer(async (request, response) => {
     const url = new URL(request.url, `http://${request.headers.host}`);
     if (url.pathname === "/api/passages") {
       const translation = url.searchParams.get("translation")?.toUpperCase();
-      if (!apiKey) return sendJson(response, 503, { message: "Add an API_BIBLE_KEY on the server to enable licensed NIV, NKJV, and NLT text." });
-      if (!["NIV", "NKJV", "NLT"].includes(translation)) return sendJson(response, 400, { message: "Unsupported translation." });
-      return sendJson(response, 200, { passages: await loadPassages(translation) });
+      if (!apiKey) return sendJson(response, 503, { message: "Add an API_BIBLE_KEY on the server to enable KJV, NIV, NKJV, and NLT text." });
+      if (!["KJV", "NIV", "NKJV", "NLT"].includes(translation)) return sendJson(response, 400, { message: "Unsupported translation." });
+      try {
+        return sendJson(response, 200, { passages: await loadPassages(translation) });
+      } catch (error) {
+        console.error(`Unable to load ${translation}:`, error.message);
+        return sendJson(response, 502, { message: error.message });
+      }
     }
 
     const requested = url.pathname === "/" ? "/index.html" : url.pathname;
