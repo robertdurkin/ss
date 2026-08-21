@@ -194,6 +194,56 @@ main { position: relative; }
 
 .reader-toolbar h2 { margin: 7px 0 0; font-family: var(--serif); font-size: 25px; font-weight: 500; }
 
+.reader-settings {
+  display: flex;
+  align-items: center;
+  gap: clamp(28px, 4vw, 60px);
+}
+
+.lesson-picker-label {
+  display: grid;
+  gap: 7px;
+}
+
+.select-shell {
+  position: relative;
+  display: block;
+}
+
+.select-shell::after {
+  content: "↓";
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  transform: translateY(-52%);
+  color: var(--coral-dark);
+  font-size: 13px;
+  pointer-events: none;
+}
+
+#lesson-picker {
+  width: clamp(230px, 27vw, 360px);
+  min-height: 42px;
+  padding: 9px 42px 9px 13px;
+  appearance: none;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: rgba(255,253,248,.72);
+  color: var(--ink);
+  font: 500 13px/1.2 var(--sans);
+  cursor: pointer;
+}
+
+#lesson-picker:focus-visible {
+  outline: 2px solid var(--coral);
+  outline-offset: 2px;
+}
+
+#lesson-picker:disabled {
+  color: var(--ink-soft);
+  cursor: wait;
+}
+
 .translation-picker { display: flex; gap: 7px; padding: 5px; background: var(--paper-deep); border-radius: 99px; }
 .translation-button {
   min-width: 64px;
@@ -284,6 +334,8 @@ footer > span { margin-top: 20px; color: rgba(255,255,255,.45); font-size: 10px;
   .hero-orbit { right: -180px; opacity: .6; width: 600px; }
   .study-layout { grid-template-columns: 1fr; padding-top: 60px; }
   .study-nav { display: none; }
+  .reader-settings { gap: 24px; }
+  #lesson-picker { width: min(38vw, 320px); }
 }
 
 @media (max-width: 640px) {
@@ -302,6 +354,8 @@ footer > span { margin-top: 20px; color: rgba(255,255,255,.45); font-size: 10px;
   .hero-orbit p { display: none; }
 
   .reader-toolbar { display: grid; gap: 18px; padding-top: 17px; padding-bottom: 17px; }
+  .reader-settings { display: grid; grid-template-columns: 1fr; gap: 15px; }
+  #lesson-picker { width: 100%; }
   .reader-toolbar h2 { font-size: 20px; }
   .translation-picker { width: 100%; }
   .translation-button { flex: 1; min-width: 0; padding-inline: 10px; }

@@ -1,0 +1,11 @@
+{
+  "defaultLesson": "lesson-08",
+  "lessons": [
+    {
+      "id": "lesson-08",
+      "number": 8,
+      "title": "The Power of Christ's Resurrection",
+      "file": "lesson-08.json"
+    }
+  ]
+}
