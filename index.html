@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A focused scripture reader for Lesson 8: The Power of Christ's Resurrection." />
+    <title>Lesson 8 — The Power of Christ's Resurrection</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="progress-bar" aria-hidden="true"><span id="reading-progress"></span></div>
+
+    <header class="hero" id="top">
+      <nav class="topbar" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Resurrection study home">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>Scripture Study</span>
+        </a>
+        <a class="quiet-link" href="#study">Begin reading <span aria-hidden="true">↓</span></a>
+      </nav>
+
+      <div class="hero-copy">
+        <div class="lesson-label"><span>Lesson 08</span><span class="line"></span><span>Scripture references</span></div>
+        <h1>The Power of Christ’s <em>Resurrection</em></h1>
+        <p class="hero-intro">Trace the promise, victory, and present power of the risen Christ through nine connected movements of Scripture.</p>
+        <div class="hero-meta" aria-label="Lesson overview">
+          <div><strong>09</strong><span>Themes</span></div>
+          <div><strong>26</strong><span>Passages</span></div>
+          <div><strong>01</strong><span>Central hope</span></div>
+        </div>
+      </div>
+
+      <div class="hero-orbit" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="sun"><span></span></div>
+        <p>“I am the resurrection,<br />and the life.”</p>
+      </div>
+    </header>
+
+    <main id="study">
+      <section class="reader-toolbar" aria-label="Bible translation controls">
+        <div>
+          <p class="eyebrow">Reading translation</p>
+          <h2 id="translation-title">King James Version</h2>
+        </div>
+        <div class="translation-picker" role="group" aria-label="Choose a Bible translation">
+          <button class="translation-button active" type="button" data-translation="KJV" aria-pressed="true">KJV</button>
+          <button class="translation-button" type="button" data-translation="NIV" aria-pressed="false">NIV</button>
+          <button class="translation-button" type="button" data-translation="NKJV" aria-pressed="false">NKJV</button>
+          <button class="translation-button" type="button" data-translation="NLT" aria-pressed="false">NLT</button>
+        </div>
+      </section>
+
+      <div class="study-layout">
+        <aside class="study-nav" aria-label="Lesson themes">
+          <p class="eyebrow">In this lesson</p>
+          <ol id="theme-nav"></ol>
+          <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </aside>
+
+        <div class="passage-content" id="passage-content" aria-live="polite">
+          <div class="loading-state">
+            <span class="spinner" aria-hidden="true"></span>
+            <p>Gathering the passages…</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-mark" aria-hidden="true"><span></span></div>
+      <p>“But now is Christ risen from the dead, and become the firstfruits of them that slept.”</p>
+      <span>1 Corinthians 15:20 · KJV</span>
+    </footer>
+
+    <div class="notice" id="notice" role="status" aria-live="polite" hidden>
+      <div>
+        <strong id="notice-title"></strong>
+        <p id="notice-copy"></p>
+      </div>
+      <button id="notice-close" type="button" aria-label="Close notice">×</button>
+    </div>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
