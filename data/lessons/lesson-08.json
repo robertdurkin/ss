@@ -189,7 +189,12 @@
           "id": "hebrews-7-25",
           "reference": "Hebrews 7:25",
           "apiPassages": ["HEB.7.25"]
-        }
+        },
+        {
+          "id": "hebrews-9-28",
+          "reference": "Hebrews 9:28",
+          "apiPassages": ["HEB.9.28"]
+        }        
       ]
     },
     {
