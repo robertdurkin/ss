@@ -17,6 +17,12 @@ node server.mjs
 
 Then open `http://localhost:4173`.
 
+Run the verse-content parser regression tests with:
+
+```bash
+node --test
+```
+
 You can link directly to a lesson with its ID:
 
 ```text

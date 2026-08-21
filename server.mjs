@@ -2,6 +2,7 @@ import { createServer } from "node:http";
 import { readFile, stat } from "node:fs/promises";
 import { basename, dirname, extname, join, normalize, sep } from "node:path";
 import { fileURLToPath } from "node:url";
+import { contentToVerses } from "./lib/scripture-content.mjs";
 
 const host = process.env.HOST || "127.0.0.1";
 const port = Number(process.env.PORT || 4173);
@@ -126,28 +127,11 @@ async function getBibleId(translation) {
   return match.id;
 }
 
-function contentToVerses(html) {
-  const normalized = html
-    .replace(/<span[^>]*class="[^"]*v[^"]*"[^>]*>(\d+)<\/span>/gi, "\n$1\t")
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;|&apos;/g, "'")
-    .replace(/\s+/g, " ")
-    .trim();
-  const parts = normalized.split(/(?=\d+\s)/).map((part) => part.trim()).filter(Boolean);
-  return parts.map((part, index) => {
-    const match = part.match(/^(\d+)\s+(.*)$/);
-    return match ? { verse: Number(match[1]), text: match[2] } : { verse: index + 1, text: part };
-  });
-}
-
 async function loadApiPassage(bibleId, passageId) {
   const cacheKey = `passage:${bibleId}:${passageId}`;
   if (cache.has(cacheKey)) return cache.get(cacheKey);
 
-  const request = apiFetch(`/bibles/${bibleId}/passages/${passageId}?content-type=html&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=true`)
+  const request = apiFetch(`/bibles/${bibleId}/passages/${passageId}?content-type=json&include-notes=false&include-titles=false&include-chapter-numbers=false&include-verse-numbers=true`)
     .then(({ data }) => contentToVerses(data.content))
     .catch((error) => {
       cache.delete(cacheKey);
