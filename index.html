@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="A focused scripture reader for Lesson 8: The Power of Christ's Resurrection." />
+    <meta id="meta-description" name="description" content="A focused, mobile-friendly scripture study reader." />
     <title>Lesson 8 — The Power of Christ's Resurrection</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +16,7 @@
 
     <header class="hero" id="top">
       <nav class="topbar" aria-label="Primary navigation">
-        <a class="brand" href="#top" aria-label="Resurrection study home">
+        <a class="brand" href="#top" aria-label="Scripture study home">
           <span class="brand-mark" aria-hidden="true"><span></span></span>
           <span>Scripture Study</span>
         </a>
@@ -24,13 +24,13 @@
       </nav>
 
       <div class="hero-copy">
-        <div class="lesson-label"><span>Lesson 08</span><span class="line"></span><span>Scripture references</span></div>
-        <h1>The Power of Christ’s <em>Resurrection</em></h1>
-        <p class="hero-intro">Trace the promise, victory, and present power of the risen Christ through nine connected movements of Scripture.</p>
+        <div class="lesson-label"><span id="hero-lesson-number">Lesson 08</span><span class="line"></span><span>Scripture references</span></div>
+        <h1 id="hero-title">The Power of Christ’s <em>Resurrection</em></h1>
+        <p class="hero-intro" id="hero-intro">Trace the promise, victory, and present power of the risen Christ through nine connected movements of Scripture.</p>
         <div class="hero-meta" aria-label="Lesson overview">
-          <div><strong>09</strong><span>Themes</span></div>
-          <div><strong>26</strong><span>Passages</span></div>
-          <div><strong>01</strong><span>Central hope</span></div>
+          <div><strong id="theme-count">09</strong><span>Themes</span></div>
+          <div><strong id="passage-count">27</strong><span>Passages</span></div>
+          <div><strong id="focus-value">01</strong><span id="focus-label">Central hope</span></div>
         </div>
       </div>
 
@@ -38,15 +38,25 @@
         <div class="orbit orbit-one"></div>
         <div class="orbit orbit-two"></div>
         <div class="sun"><span></span></div>
-        <p>“I am the resurrection,<br />and the life.”</p>
+        <p id="hero-quote">“I am the resurrection, and the life.”</p>
       </div>
     </header>
 
     <main id="study">
       <section class="reader-toolbar" aria-label="Bible translation controls">
-        <div>
-          <p class="eyebrow">Reading translation</p>
-          <h2 id="translation-title">King James Version</h2>
+        <div class="reader-settings">
+          <label class="lesson-picker-label" for="lesson-picker">
+            <span class="eyebrow">Study lesson</span>
+            <span class="select-shell">
+              <select id="lesson-picker" aria-label="Choose a lesson" disabled>
+                <option>Loading lessons…</option>
+              </select>
+            </span>
+          </label>
+          <div>
+            <p class="eyebrow">Reading translation</p>
+            <h2 id="translation-title">King James Version</h2>
+          </div>
         </div>
         <div class="translation-picker" role="group" aria-label="Choose a Bible translation">
           <button class="translation-button active" type="button" data-translation="KJV" aria-pressed="true">KJV</button>
@@ -74,8 +84,8 @@
 
     <footer>
       <div class="footer-mark" aria-hidden="true"><span></span></div>
-      <p>“But now is Christ risen from the dead, and become the firstfruits of them that slept.”</p>
-      <span>1 Corinthians 15:20 · KJV</span>
+      <p id="footer-quote">“But now is Christ risen from the dead, and become the firstfruits of them that slept.”</p>
+      <span id="footer-reference">1 Corinthians 15:20 · KJV</span>
     </footer>
 
     <div class="notice" id="notice" role="status" aria-live="polite" hidden>

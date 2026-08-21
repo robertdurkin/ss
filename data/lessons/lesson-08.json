@@ -1,0 +1,222 @@
+{
+  "id": "lesson-08",
+  "number": 8,
+  "title": "The Power of Christ's Resurrection",
+  "titleAccent": "Resurrection",
+  "intro": "Trace the promise, victory, and present power of the risen Christ through nine connected movements of Scripture.",
+  "heroQuote": "I am the resurrection, and the life.",
+  "focus": {
+    "value": "01",
+    "label": "Central hope"
+  },
+  "footer": {
+    "text": "But now is Christ risen from the dead, and become the firstfruits of them that slept.",
+    "reference": "1 Corinthians 15:20",
+    "translation": "KJV"
+  },
+  "themes": [
+    {
+      "id": "multi-dimensional-victory",
+      "title": "Christ's Multi-Dimensional Victory",
+      "summary": "The first promise: the serpent's defeat through the woman's seed.",
+      "passages": [
+        {
+          "id": "genesis-3-15",
+          "reference": "Genesis 3:15",
+          "apiPassages": ["GEN.3.15"]
+        }
+      ]
+    },
+    {
+      "id": "resurrection-gospel",
+      "title": "The Resurrection is the Gospel",
+      "summary": "The apostolic message rests on Christ crucified, risen, and witnessed.",
+      "passages": [
+        {
+          "id": "1-corinthians-15-1-8",
+          "reference": "1 Corinthians 15:1–8",
+          "apiPassages": ["1CO.15.1-1CO.15.8"]
+        },
+        {
+          "id": "1-corinthians-1-17-18",
+          "reference": "1 Corinthians 1:17–18",
+          "apiPassages": ["1CO.1.17-1CO.1.18"]
+        },
+        {
+          "id": "1-corinthians-2-2",
+          "reference": "1 Corinthians 2:2",
+          "apiPassages": ["1CO.2.2"]
+        }
+      ]
+    },
+    {
+      "id": "christianity-collapses-without-resurrection",
+      "title": "Without Resurrection, Christianity Collapses",
+      "summary": "If Christ is not raised, faith is empty and hope ends at the grave.",
+      "passages": [
+        {
+          "id": "1-corinthians-15-12-20",
+          "reference": "1 Corinthians 15:12–20",
+          "apiPassages": ["1CO.15.12-1CO.15.20"]
+        },
+        {
+          "id": "revelation-3-17",
+          "reference": "Revelation 3:17",
+          "apiPassages": ["REV.3.17"]
+        }
+      ]
+    },
+    {
+      "id": "christ-the-firstfruits",
+      "title": "Christ the Firstfruits",
+      "summary": "His resurrection guarantees the harvest still to come.",
+      "passages": [
+        {
+          "id": "1-corinthians-15-20-28",
+          "reference": "1 Corinthians 15:20–28",
+          "apiPassages": ["1CO.15.20-1CO.15.28"]
+        },
+        {
+          "id": "hebrews-2-14",
+          "reference": "Hebrews 2:14",
+          "apiPassages": ["HEB.2.14"]
+        },
+        {
+          "id": "revelation-1-5",
+          "reference": "Revelation 1:5",
+          "apiPassages": ["REV.1.5"]
+        },
+        {
+          "id": "revelation-1-18",
+          "reference": "Revelation 1:18",
+          "apiPassages": ["REV.1.18"]
+        }
+      ]
+    },
+    {
+      "id": "immortality-of-the-soul",
+      "title": "Paul Challenges the Immortality of the Soul Doctrine",
+      "summary": "The dead sleep in Christ, awaiting the voice and return of their Lord.",
+      "passages": [
+        {
+          "id": "1-corinthians-15-22-23",
+          "reference": "1 Corinthians 15:22–23",
+          "apiPassages": ["1CO.15.22-1CO.15.23"]
+        },
+        {
+          "id": "1-thessalonians-4-13-17",
+          "reference": "1 Thessalonians 4:13–17",
+          "apiPassages": ["1TH.4.13-1TH.4.17"]
+        },
+        {
+          "id": "john-5-28-29",
+          "reference": "John 5:28–29",
+          "apiPassages": ["JHN.5.28-JHN.5.29"]
+        },
+        {
+          "id": "john-11-11-14-23-25",
+          "reference": "John 11:11–14, 23–25",
+          "apiPassages": ["JHN.11.11-JHN.11.14", "JHN.11.23-JHN.11.25"]
+        }
+      ]
+    },
+    {
+      "id": "second-death-experience",
+      "title": "Christ's Second Death Experience",
+      "summary": "Christ tasted death for all, bearing sin's wages and breaking its claim.",
+      "passages": [
+        {
+          "id": "isaiah-53-12",
+          "reference": "Isaiah 53:12",
+          "apiPassages": ["ISA.53.12"]
+        },
+        {
+          "id": "hebrews-2-9",
+          "reference": "Hebrews 2:9",
+          "apiPassages": ["HEB.2.9"]
+        },
+        {
+          "id": "romans-6-23",
+          "reference": "Romans 6:23",
+          "apiPassages": ["ROM.6.23"]
+        },
+        {
+          "id": "2-timothy-1-10",
+          "reference": "2 Timothy 1:10",
+          "apiPassages": ["2TI.1.10"]
+        }
+      ]
+    },
+    {
+      "id": "resurrection-power-begins-now",
+      "title": "Resurrection Power Begins Now",
+      "summary": "The life of the age to come is already remaking those joined to Christ.",
+      "passages": [
+        {
+          "id": "1-corinthians-6-9-11",
+          "reference": "1 Corinthians 6:9–11",
+          "apiPassages": ["1CO.6.9-1CO.6.11"]
+        },
+        {
+          "id": "ephesians-1-19-21",
+          "reference": "Ephesians 1:19–21",
+          "apiPassages": ["EPH.1.19-EPH.1.21"]
+        },
+        {
+          "id": "ephesians-2-1",
+          "reference": "Ephesians 2:1",
+          "apiPassages": ["EPH.2.1"]
+        },
+        {
+          "id": "romans-6-3-11",
+          "reference": "Romans 6:3–11",
+          "apiPassages": ["ROM.6.3-ROM.6.11"]
+        }
+      ]
+    },
+    {
+      "id": "risen-christ-ministers-now",
+      "title": "The Risen Christ Ministers Now",
+      "summary": "The enthroned Christ serves as priest and intercessor for His people.",
+      "passages": [
+        {
+          "id": "hebrews-8-1-2",
+          "reference": "Hebrews 8:1–2",
+          "apiPassages": ["HEB.8.1-HEB.8.2"]
+        },
+        {
+          "id": "hebrews-7-25",
+          "reference": "Hebrews 7:25",
+          "apiPassages": ["HEB.7.25"]
+        },
+        {
+          "id": "hebrews-9-28",
+          "reference": "Hebrews 9:28",
+          "apiPassages": ["HEB.9.28"]
+        }        
+      ]
+    },
+    {
+      "id": "great-controversy-will-end",
+      "title": "Resurrection Means the Great Controversy Will End",
+      "summary": "Every enemy is put down, death is destroyed, and sorrow passes away.",
+      "passages": [
+        {
+          "id": "1-corinthians-15-24-28",
+          "reference": "1 Corinthians 15:24–28",
+          "apiPassages": ["1CO.15.24-1CO.15.28"]
+        },
+        {
+          "id": "revelation-20-14",
+          "reference": "Revelation 20:14",
+          "apiPassages": ["REV.20.14"]
+        },
+        {
+          "id": "revelation-21-4",
+          "reference": "Revelation 21:4",
+          "apiPassages": ["REV.21.4"]
+        }
+      ]
+    }
+  ]
+}
