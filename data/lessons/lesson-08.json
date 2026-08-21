@@ -158,10 +158,9 @@
           "apiPassages": ["1CO.6.9-1CO.6.11"]
         },
         {
-          "id": "ephesians-1-19-29",
-          "reference": "Ephesians 1:19–29",
-          "apiPassages": ["EPH.1.19-EPH.1.23"],
-          "note": "Ephesians 1 ends at verse 23; verses 19–23 are shown."
+          "id": "ephesians-1-19-21",
+          "reference": "Ephesians 1:19–21",
+          "apiPassages": ["EPH.1.19-EPH.1.21"]
         },
         {
           "id": "ephesians-2-1",
@@ -178,7 +177,7 @@
     {
       "id": "risen-christ-ministers-now",
       "title": "The Risen Christ Ministers Now",
-      "summary": "The enthroned Christ serves as priest and intercessor for his people.",
+      "summary": "The enthroned Christ serves as priest and intercessor for His people.",
       "passages": [
         {
           "id": "hebrews-8-1-2",
