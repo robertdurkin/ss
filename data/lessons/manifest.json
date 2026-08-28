@@ -1,11 +1,16 @@
 {
-  "defaultLesson": "lesson-08",
+  "defaultLesson": "lesson-09",
   "lessons": [
     {
       "id": "lesson-08",
       "number": 8,
       "title": "The Power of Christ's Resurrection",
       "file": "lesson-08.json"
+    },{
+      "id": "lesson-09",
+      "number": 9,
+      "title": "Grace, Mercy, and Comfort",
+      "file": "lesson-09.json"
     }
   ]
 }
