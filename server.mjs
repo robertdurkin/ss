@@ -16,6 +16,7 @@ const mimeTypes = {
   ".html": "text/html; charset=utf-8",
   ".css": "text/css; charset=utf-8",
   ".js": "text/javascript; charset=utf-8",
+  ".mjs": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".svg": "image/svg+xml",
 };
@@ -56,10 +57,13 @@ function validateLesson(lesson, entry) {
 
   const passageIds = new Set();
   for (const theme of lesson.themes) {
-    if (!theme.id || !theme.title || !theme.summary || !Array.isArray(theme.passages) || theme.passages.length === 0) {
+    const passages = theme.passages ?? [];
+    const quotes = theme.quotes ?? [];
+    const validCollections = Array.isArray(passages) && Array.isArray(quotes) && passages.length + quotes.length > 0;
+    if (!theme.id || !theme.title || !theme.summary || !validCollections) {
       throw new Error(`A theme in ${entry.file} is invalid.`);
     }
-    for (const passage of theme.passages) {
+    for (const passage of passages) {
       const validApiPassages = Array.isArray(passage.apiPassages)
         && passage.apiPassages.length > 0
         && passage.apiPassages.every((passageId) => typeof passageId === "string" && passageId.length > 0);
@@ -67,6 +71,13 @@ function validateLesson(lesson, entry) {
         throw new Error(`Passage definitions in ${entry.file} must have unique IDs, references, and API passage IDs.`);
       }
       passageIds.add(passage.id);
+    }
+    for (const quote of quotes) {
+      const validQuote = [quote?.quote, quote?.author, quote?.source]
+        .every((value) => typeof value === "string" && value.trim().length > 0);
+      if (!validQuote) {
+        throw new Error(`Quotes in ${entry.file} must include quote, author, and source text.`);
+      }
     }
   }
   return lesson;
@@ -147,7 +158,7 @@ async function loadPassages(lessonId, translation) {
 
   const lesson = await getLesson(lessonId);
   const bibleId = await getBibleId(translation);
-  const passageDefinitions = lesson.themes.flatMap((theme) => theme.passages);
+  const passageDefinitions = lesson.themes.flatMap((theme) => theme.passages || []);
   const entries = await Promise.all(passageDefinitions.map(async (passage) => {
     const groups = await Promise.all(passage.apiPassages.map((passageId) => loadApiPassage(bibleId, passageId)));
     return [passage.id, { verses: groups.flat() }];

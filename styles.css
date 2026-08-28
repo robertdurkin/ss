@@ -284,7 +284,7 @@ main { position: relative; }
 .theme-intro h3 { margin: 0; font-family: var(--serif); font-size: clamp(34px, 4vw, 48px); font-weight: 500; line-height: 1.04; letter-spacing: -.03em; }
 .theme-intro p { max-width: 610px; margin: 13px 0 0; color: var(--ink-soft); font-family: var(--serif); font-size: 18px; line-height: 1.5; }
 
-.passage-list { display: grid; gap: 14px; }
+.lesson-items { display: grid; gap: 14px; }
 .passage-card { position: relative; padding: 28px 30px 31px; overflow: hidden; background: rgba(255,253,248,.72); border: 1px solid rgba(23,33,38,.11); border-radius: 3px; }
 .passage-card::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 3px; background: transparent; }
 .passage-card.featured::before { background: var(--coral); }
@@ -295,6 +295,33 @@ main { position: relative; }
 .verse sup { position: relative; top: -.15em; margin-right: 4px; color: var(--coral-dark); font-family: var(--sans); font-size: 9px; font-weight: 700; }
 .reference-note { margin: 14px 0 -7px; color: var(--coral-dark); font-size: 11px; line-height: 1.5; }
 .passage-error { color: var(--ink-soft); font-family: var(--serif); font-style: italic; }
+
+.quote-card {
+  position: relative;
+  margin: 0;
+  padding: 31px 34px 32px;
+  overflow: hidden;
+  background: var(--navy);
+  color: var(--white);
+  border-radius: 3px;
+}
+.quote-card::after {
+  content: "“";
+  position: absolute;
+  top: -14px;
+  right: 24px;
+  color: rgba(215,93,66,.28);
+  font-family: var(--serif);
+  font-size: 112px;
+  line-height: 1;
+  pointer-events: none;
+}
+.quote-label { color: #e18169; font-size: 9px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.quote-card blockquote { position: relative; z-index: 1; margin: 19px 0 24px; }
+.quote-card blockquote p { margin: 0; font-family: var(--serif); font-size: 22px; line-height: 1.55; }
+.quote-card figcaption { display: grid; gap: 4px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.14); }
+.quote-card figcaption strong { color: var(--white); font-family: var(--serif); font-size: 16px; font-weight: 500; }
+.quote-card figcaption cite { color: rgba(255,255,255,.55); font-size: 11px; font-style: normal; line-height: 1.45; }
 
 .loading-state { display: grid; place-items: center; min-height: 360px; color: var(--ink-soft); font-family: var(--serif); font-size: 18px; }
 .spinner { width: 28px; height: 28px; border: 2px solid var(--paper-deep); border-top-color: var(--coral); border-radius: 50%; animation: spin .8s linear infinite; }
@@ -368,6 +395,8 @@ footer > span { margin-top: 20px; color: rgba(255,255,255,.45); font-size: 10px;
   .passage-card { padding: 23px 20px 25px; }
   .passage-heading h4 { font-size: 20px; }
   .scripture-text { font-size: 18px; line-height: 1.68; }
+  .quote-card { padding: 26px 22px 27px; }
+  .quote-card blockquote p { font-size: 20px; }
   .notice { right: 12px; bottom: 12px; left: 12px; }
 }
 

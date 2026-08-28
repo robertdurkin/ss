@@ -1,3 +1,5 @@
+import { sanitizeQuoteHtml } from "./lib/quote-html.mjs";
+
 const translationNames = {
   KJV: "King James Version",
   NIV: "New International Version",
@@ -27,7 +29,7 @@ function renderNavigation() {
 
 function renderLessonShell() {
   const { lesson } = state;
-  const passageCount = lesson.themes.reduce((total, theme) => total + theme.passages.length, 0);
+  const passageCount = lesson.themes.reduce((total, theme) => total + (theme.passages || []).length, 0);
   const lessonNumber = String(lesson.number).padStart(2, "0");
 
   document.querySelector("#hero-lesson-number").textContent = `Lesson ${lessonNumber}`;
@@ -60,10 +62,24 @@ function verseMarkup(verses) {
     .join(" ");
 }
 
+function quoteMarkup(quote) {
+  return `
+    <figure class="quote-card">
+      <span class="quote-label">Author quotation</span>
+      <blockquote>
+        <p>“${sanitizeQuoteHtml(quote.quote)}”</p>
+      </blockquote>
+      <figcaption>
+        <strong>${escapeHtml(quote.author)}</strong>
+        <cite>${escapeHtml(quote.source)}</cite>
+      </figcaption>
+    </figure>`;
+}
+
 function renderThemes(data, translation) {
   content.innerHTML = state.lesson.themes
     .map((theme, themeIndex) => {
-      const cards = theme.passages
+      const passageCards = (theme.passages || [])
         .map((passage, passageIndex) => {
           const result = data[passage.id];
           const body = result?.verses?.length
@@ -80,6 +96,7 @@ function renderThemes(data, translation) {
             </article>`;
         })
         .join("");
+      const quoteCards = (theme.quotes || []).map(quoteMarkup).join("");
 
       return `
         <section class="theme-section" id="theme-${themeIndex + 1}">
@@ -90,7 +107,7 @@ function renderThemes(data, translation) {
               <p>${escapeHtml(theme.summary)}</p>
             </div>
           </div>
-          <div class="passage-list">${cards}</div>
+          <div class="lesson-items">${passageCards}${quoteCards}</div>
         </section>`;
     })
     .join("");

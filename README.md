@@ -1,6 +1,6 @@
 # Scripture Study
 
-A dependency-free, mobile-friendly scripture lesson reader. Readers can select a lesson and display its passages in KJV, NIV, NKJV, or NLT. Scripture text is loaded through a server-side [API.Bible](https://api.bible) connection, so Bible text and API credentials are not committed to the site.
+A dependency-free, mobile-friendly lesson reader for Scripture passages and supporting author quotations. Readers can select a lesson and display its passages in KJV, NIV, NKJV, or NLT. Scripture text is loaded through a server-side [API.Bible](https://api.bible) connection, so Bible text and API credentials are not committed to the site.
 
 Lesson content is data-driven:
 
@@ -42,7 +42,7 @@ The key remains server-side. All translations, including KJV, require this conne
 ## Add a lesson
 
 1. Copy an existing lesson file, such as `data/lessons/lesson-08.json`, to a new filename such as `lesson-09.json`.
-2. Give the lesson a unique `id` and update its number, display copy, themes, and passages.
+2. Give the lesson a unique `id` and update its number, display copy, themes, passages, and quotations.
 3. Add the lesson to `data/lessons/manifest.json`. The `file` value must be the lesson JSON filename.
 4. Restart the Node service so its in-memory lesson catalog is refreshed.
 
@@ -66,6 +66,44 @@ Use multiple `apiPassages` values for a non-contiguous reference:
 }
 ```
 
+### Add author quotations
+
+A theme can have an optional `quotes` array beside its `passages` array. Each quotation requires the quotation text, author, and source:
+
+```json
+{
+  "id": "resurrection-power-begins-now",
+  "title": "Resurrection Power Begins Now",
+  "summary": "The life of the age to come is already remaking those joined to Christ.",
+  "passages": [
+    {
+      "id": "romans-6-3-11",
+      "reference": "Romans 6:3–11",
+      "apiPassages": ["ROM.6.3-ROM.6.11"]
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "Insert the quotation text here.",
+      "author": "Ellen G. White",
+      "source": "Book Title, page 000"
+    }
+  ]
+}
+```
+
+Both arrays are optional individually, but every theme must contain at least one passage or quotation. Passages are displayed first, followed by quotations. Changing lesson JSON requires restarting the Node service because lesson definitions and passage responses are cached in memory.
+
+Quotation text supports the following formatting tags: `<b>`, `<u>`, `<i>`, `<strong>`, `<string>`, `<em>`, and `<br>`. The nonstandard `<string>` spelling is treated as an alias for `<strong>`. All attributes and other HTML tags are removed. Author and source fields remain plain text.
+
+```json
+{
+  "quote": "This text is <b>bold</b> and this is <u>underlined</u>.<br>This begins a new line.",
+  "author": "Ellen G. White",
+  "source": "Book Title, page 000"
+}
+```
+
 To make a different lesson load by default, change `defaultLesson` in the manifest. The selector and bookmarkable `?lesson=` URL require no HTML or JavaScript changes.
 
 ## API endpoint
@@ -77,5 +115,3 @@ GET /api/passages?lesson=lesson-08&translation=KJV
 ```
 
 Both query parameters are required. Apache only needs to proxy the `/api/` path to the Node service; lesson JSON and other static assets can be served normally.
-
-Note: the supplied reference `Ephesians 1:19–29` extends beyond the end of Ephesians 1. The reader preserves the supplied label and clearly notes that verses 19–23 are displayed.

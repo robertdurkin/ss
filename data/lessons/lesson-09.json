@@ -1,0 +1,153 @@
+{
+  "id": "lesson-09",
+  "number": 9,
+  "title": "Love-driven Ministry",
+  "titleAccent": "Love",
+  "intro": "Trace how the grace, mercy, and comfort we receive from God become a love-driven ministry of truth, restoration, and blessing to others.",
+  "heroQuote": "The love of Christ constraineth us.",
+  "focus": {
+    "value": "01",
+    "label": "Central hope"
+  },
+  "footer": {
+    "text": "For out of much affliction and anguish of heart I wrote to you, with many tears, not that you should be grieved, but that you might know the love which I have so abundantly for you.",
+    "reference": "2 Corinthians 2:4",
+    "translation": "NKJV"
+  },
+  "themes": [
+    {
+      "id": "love-is-the-ruling-principle-of-action",
+      "title": "Love is the Ruling Principle of Action",
+      "quotes": [
+        {
+          "quote": "The completeness of Christian character is attained when <b>the impulse to help and bless others springs constantly from within</b>. It is the atmosphere of this love surrounding the soul of the believer that makes him a savor of life unto life and enables God to bless his work. <b>Supreme love for God and unselfish love for one another</b>—this is the best gift that our heavenly Father can bestow. This love is not an impulse, but a <b>divine principle</b>, a permanent power. The unconsecrated heart cannot originate or produce it. <b>Only in the heart where Jesus reigns is it found.</b> 'We love Him, because He first loved us.' In the heart renewed by divine grace, <b>love is the ruling principle of action</b>. It modifies the character, governs the impulses, controls the passions, and ennobles the affections. This love, cherished in the soul, sweetens the life and sheds a refining influence on all around.",
+          "author": "Ellen White",
+          "source": "Acts of the Apostles, pg. 551.2 (emphasis supplied)"
+        }
+      ]
+    },
+    {
+      "id": "grace-mercy-comfort",
+      "title": "Grace, Mercy, and Comfort",
+      "summary": "The character of Paul's ministry towards the troubled church.",
+      "passages": [
+        {
+          "id": "1-corinthians-1-4",
+          "reference": "1 Corinthians 1:4",
+          "apiPassages": ["1CO.1.4"]
+        },
+        {
+          "id": "2-corinthians-1-3",
+          "reference": "2 Corinthians 1:3",
+          "apiPassages": ["2CO.1.3"]
+        },
+        {
+          "id": "1-corinthians-1-5",
+          "reference": "1 Corinthians 1:5",
+          "apiPassages": ["1CO.1.5"]
+        },
+        {
+          "id": "1-corinthians-1-8",
+          "reference": "1 Corinthians 1:8",
+          "apiPassages": ["1CO.1.8"]
+        },
+        {
+          "id": "2-corinthians-2-7-8",
+          "reference": "2 Corinthians 2:7–8",
+          "apiPassages": ["2CO.2.7-2CO.2.8"]
+        },
+        {
+          "id": "2-corinthians-2-11",
+          "reference": "2 Corinthians 2:11",
+          "apiPassages": ["2CO.2.11"]
+        }
+      ]
+    },
+    {
+      "id": "circuit-of-beneficence",
+      "title": "Circuit of Beneficence",
+      "summary": "God's grace flows to us and through us, multiplying thanksgiving, generosity, and life in others.",
+      "quotes": [
+        {
+          "quote": "<b>Our little world is the lesson book of the universe.</b> God's wonderful purpose of grace, the mystery of redeeming love, is the theme into which \"angels desire to look,\" and it will be their study throughout endless ages. Both the redeemed and the unfallen beings will find in the cross of Christ their science and their song. It will be seen that the glory shining in the face of Jesus is the glory of self-sacrificing love. <b>In the light from Calvary it will be seen that the law of self-renouncing love is the law of life for earth and heaven;</b> that the love which \"seeketh not her own\" has its source in the heart of God; and that in the meek and lowly One is manifested the character of Him who dwelleth in the light which no man can approach unto.<br><br><b>There is nothing, save the selfish heart of man, that lives unto itself. No bird that cleaves the air, no animal that moves upon the ground, but ministers to some other life.</b> There is no leaf of the forest, or lowly blade of grass, but has its ministry. Every tree and shrub and leaf pours forth that element of life without which neither man nor animal could live; and man and animal, in turn, minister to the life of tree and shrub and leaf. The flowers breathe fragrance and unfold their beauty in blessing to the world. The sun sheds its light to gladden a thousand worlds. The ocean, itself the source of all our springs and fountains, receives the streams from every land, but takes to give. The mists ascending from its bosom fall in showers to water the earth, that it may bring forth and bud.<br><br><b>The angels of glory find their joy in giving,—giving love and tireless watchcare to souls that are fallen and unholy.</b> Heavenly beings woo the hearts of men; they bring to this dark world light from the courts above; by gentle and patient ministry they move upon the human spirit, to bring the lost into a fellowship with Christ which is even closer than they themselves can know.<br><br><b>Looking unto Jesus we see that it is the glory of our God to give. \"I do nothing of Myself,\" said Christ; \"the living Father hath sent Me, and I live by the Father.\" \"I seek not Mine own glory,\" but the glory of Him that sent Me. John 8:28; 6:57; 8:50; 7:18. In these words is set forth the great principle which is the law of life for the universe. All things Christ received from God, but He took to give. So in the heavenly courts, in His ministry for all created beings: through the beloved Son, the Father's life flows out to all; through the Son it returns, in praise and joyous service, a tide of love, to the great Source of all. And thus through Christ the circuit of beneficence is complete, representing the character of the great Giver, the law of life.</b><br><br><b>In heaven itself this law was broken. Sin originated in self-seeking.</b> Lucifer, the covering cherub, desired to be first in heaven. He sought to gain control of heavenly beings, to draw them away from their Creator, and to win their homage to himself. Therefore he misrepresented God, attributing to Him the desire for self-exaltation. With his own evil characteristics he sought to invest the loving Creator. Thus he deceived angels. Thus he deceived men. He led them to doubt the word of God, and to distrust His goodness. Because God is a God of justice and terrible majesty, Satan caused them to look upon Him as severe and unforgiving. Thus he drew men to join him in rebellion against God, and the night of woe settled down upon the world.",
+          "author": "Ellen White",
+          "source": "Desire of Ages, pp. 19-21 (emphasis supplied)"
+        }
+      ],            
+      "passages": [
+        {
+          "id": "romans-6-23",
+          "reference": "Romans 6:23",
+          "apiPassages": ["ROM.6.23"]
+        },
+        {
+          "id": "james-1-15",
+          "reference": "James 1:15",
+          "apiPassages": ["JAS.1.15"]
+        },
+        {
+          "id": "galatians-6-8",
+          "reference": "Galatians 6:8",
+          "apiPassages": ["GAL.6.8"]
+        },
+        {
+          "id": "2-corinthians-1-4-7",
+          "reference": "2 Corinthians 1:4–7",
+          "apiPassages": ["2CO.1.4-2CO.1.7"]
+        },
+        {
+          "id": "2-corinthians-8-9",
+          "reference": "2 Corinthians 8:9",
+          "apiPassages": ["2CO.8.9"]
+        },
+        {
+          "id": "2-corinthians-9-8-12",
+          "reference": "2 Corinthians 9:8–12",
+          "apiPassages": ["2CO.9.8-2CO.9.12"]
+        },
+        {
+          "id": "2-corinthians-4-6-15",
+          "reference": "2 Corinthians 4:6, 15",
+          "apiPassages": ["2CO.4.6", "2CO.4.15"]
+        },
+        {
+          "id": "2-corinthians-1-12",
+          "reference": "2 Corinthians 1:12",
+          "apiPassages": ["2CO.1.12"]
+        },
+        {
+          "id": "john-17-7-8",
+          "reference": "John 17:7–8",
+          "apiPassages": ["JHN.17.7-JHN.17.8"]
+        },
+        {
+          "id": "2-corinthians-5-14-15",
+          "reference": "2 Corinthians 5:14–15",
+          "apiPassages": ["2CO.5.14-2CO.5.15"]
+        }
+      ]
+    },
+    {
+      "id": "simplicity-and-sincerity",
+      "title": "Simplicity and Sincerity",
+      "summary": "Gospel ministry is marked by transparent motives, plain truth, and godly sincerity.",
+      "passages": [
+        {
+          "id": "simplicity-2-corinthians-1-12",
+          "reference": "2 Corinthians 1:12",
+          "apiPassages": ["2CO.1.12"]
+        },
+        {
+          "id": "2-corinthians-2-17",
+          "reference": "2 Corinthians 2:17",
+          "apiPassages": ["2CO.2.17"]
+        },
+        {
+          "id": "2-corinthians-4-2",
+          "reference": "2 Corinthians 4:2",
+          "apiPassages": ["2CO.4.2"]
+        }
+      ]
+    }
+  ]
+}
