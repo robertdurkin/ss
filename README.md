@@ -92,7 +92,7 @@ A theme can have an optional `quotes` array beside its `passages` array. Each qu
 }
 ```
 
-Both arrays are optional individually, but every theme must contain at least one passage or quotation. Passages are displayed first, followed by quotations. Changing lesson JSON requires restarting the Node service because lesson definitions and passage responses are cached in memory.
+Both arrays are optional. A theme may contain only `id`, `title`, and `summary`, without passages or quotations. When present, passages are displayed first, followed by quotations. Changing lesson JSON requires restarting the Node service because lesson definitions and passage responses are cached in memory.
 
 Quotation text supports the following formatting tags: `<b>`, `<u>`, `<i>`, `<strong>`, `<string>`, `<em>`, and `<br>`. The nonstandard `<string>` spelling is treated as an alias for `<strong>`. All attributes and other HTML tags are removed. Author and source fields remain plain text.
 

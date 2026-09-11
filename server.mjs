@@ -59,7 +59,7 @@ function validateLesson(lesson, entry) {
   for (const theme of lesson.themes) {
     const passages = theme.passages ?? [];
     const quotes = theme.quotes ?? [];
-    const validCollections = Array.isArray(passages) && Array.isArray(quotes) && passages.length + quotes.length > 0;
+    const validCollections = Array.isArray(passages) && Array.isArray(quotes);
     if (!theme.id || !theme.title || !theme.summary || !validCollections) {
       throw new Error(`A theme in ${entry.file} is invalid.`);
     }
