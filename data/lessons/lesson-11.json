@@ -1,6 +1,6 @@
 {
-  "id": "lesson-10",
-  "number": 10,
+  "id": "lesson-11",
+  "number": 11,
   "title": "Stewardship and Mission",
   "titleAccent": "Stewardship",
   "intro": "Explore 2 Corinthians 8–9 to see how Christ's self-giving grace restores heaven's principle of receiving in order to give, making stewardship the gospel made visible in our resources.",
@@ -18,16 +18,7 @@
     {
       "id": "stewardship-and-the-circuit-of-beneficence",
       "title": "Stewardship and the Circuit of Beneficence",
-      "summary": "Stewardship reveals which principle governs our lives: heaven's self-renouncing love or sin's self-seeking. In 2 Corinthians 8–9, God's gifts flow through believers to bless others and return to Him in thanksgiving and glory.",
-      "passages": [
-        {
-          "id": "stewardship-and-the-circuit-of-beneficence-2co-8-1-2co-9-15",
-          "reference": "2 Corinthians 8–9",
-          "apiPassages": [
-            "2CO.8.1-2CO.9.15"
-          ]
-        }
-      ]
+      "summary": "Stewardship reveals which principle governs our lives: heaven's self-renouncing love or sin's self-seeking. In 2 Corinthians 8–9, God's gifts flow through believers to bless others and return to Him in thanksgiving and glory."
     },
     {
       "id": "christ-the-perfect-circuit-of-beneficence",
