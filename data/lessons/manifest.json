@@ -11,6 +11,12 @@
       "number": 9,
       "title": "Grace, Mercy, and Comfort",
       "file": "lesson-09.json"
+    },
+    {
+      "id": "lesson-10",
+      "number": 10,
+      "title": "Stewardship and Mission",
+      "file": "lesson-10.json"
     }
   ]
 }
