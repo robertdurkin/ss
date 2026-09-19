@@ -1,0 +1,271 @@
+{
+  "id": "lesson-12",
+  "number": 12,
+  "title": "Dealing With False Teachers",
+  "titleAccent": "False Teachers",
+  "intro": "Explore two models of ministry in the Great Controversy through 2 Corinthians 10–13. Compare their message, motive, methods, character, and fruit to distinguish the Principle of the Cross from the Principle of Sin.",
+  "heroQuote": "The Principle of the Cross is the true law of life.",
+  "focus": {
+    "value": "05",
+    "label": "Tests of ministry"
+  },
+  "footer": {
+    "text": "For the weapons of our warfare are not of the flesh but have divine power to destroy strongholds.",
+    "reference": "2 Corinthians 10:4",
+    "translation": "ESV"
+  },
+  "themes": [
+    {
+      "id": "two-models-of-ministry",
+      "title": "Two Models of Ministry in the Great Controversy",
+      "summary": "Paul contrasts ministry governed by the Principle of the Cross with ministry governed by the Principle of Sin. False apostles claim Christ and appear righteous, just as Satan appears as an angel of light. Genuine ministry is distinguished by its message, motive, methods, character, and fruit, rather than religious profession alone.",
+      "passages": [
+        {
+          "id": "two-models-of-ministry-2co-10-1-2co-13-14",
+          "reference": "2 Corinthians 10–13",
+          "apiPassages": [
+            "2CO.10.1-2CO.13.14"
+          ]
+        },
+        {
+          "id": "two-models-of-ministry-2co-11-13-2co-11-14",
+          "reference": "2 Corinthians 11:13–14",
+          "apiPassages": [
+            "2CO.11.13-2CO.11.14"
+          ]
+        },
+        {
+          "id": "two-models-of-ministry-2co-11-14-2co-11-15",
+          "reference": "2 Corinthians 11:14–15",
+          "apiPassages": [
+            "2CO.11.14-2CO.11.15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "message",
+      "title": "I. Message — What Picture of God and the Gospel Is Being Presented?",
+      "summary": "True ministry proclaims Christ crucified and the God of self-renouncing love: God gives, people receive His grace, grace transforms them, and they become channels of blessing to others. False ministry presents another Jesus, spirit, or gospel, distorting God’s character, His government, sin, salvation, or the character salvation produces. Like Satan’s deception in Eden, the counterfeit misrepresents God while retaining religious language. Because we become like the God we behold, a distorted gospel forms distorted character and undermines the vindication of God’s character in the Great Controversy.",
+      "passages": [
+        {
+          "id": "message-1co-1-23",
+          "reference": "1 Corinthians 1:23",
+          "apiPassages": [
+            "1CO.1.23"
+          ]
+        },
+        {
+          "id": "message-2co-11-2-2co-11-4",
+          "reference": "2 Corinthians 11:2–4",
+          "apiPassages": [
+            "2CO.11.2-2CO.11.4"
+          ]
+        },
+        {
+          "id": "message-2co-11-4",
+          "reference": "2 Corinthians 11:4",
+          "apiPassages": [
+            "2CO.11.4"
+          ]
+        },
+        {
+          "id": "message-2co-11-13-2co-11-15",
+          "reference": "2 Corinthians 11:13–15",
+          "apiPassages": [
+            "2CO.11.13-2CO.11.15"
+          ]
+        },
+        {
+          "id": "message-2co-3-18",
+          "reference": "2 Corinthians 3:18",
+          "apiPassages": [
+            "2CO.3.18"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motive",
+      "title": "II. Motive — Whose Glory Is Being Sought?",
+      "summary": "False apostles measure and commend themselves, turning the congregation into a means of gaining recognition, status, authority, wealth, influence, or followers. Paul glories in the Lord and seeks His approval; he seeks the people themselves rather than their possessions and gladly spends himself for them. This is the circuit of beneficence in ministry. Self-exaltation repeats Lucifer’s ambition, while Christ’s humility unto the death of the cross reveals the governing principle of true ministry.",
+      "passages": [
+        {
+          "id": "motive-2co-10-12",
+          "reference": "2 Corinthians 10:12",
+          "apiPassages": [
+            "2CO.10.12"
+          ]
+        },
+        {
+          "id": "motive-2co-10-17",
+          "reference": "2 Corinthians 10:17",
+          "apiPassages": [
+            "2CO.10.17"
+          ]
+        },
+        {
+          "id": "motive-2co-10-18",
+          "reference": "2 Corinthians 10:18",
+          "apiPassages": [
+            "2CO.10.18"
+          ]
+        },
+        {
+          "id": "motive-2co-12-14",
+          "reference": "2 Corinthians 12:14",
+          "apiPassages": [
+            "2CO.12.14"
+          ]
+        },
+        {
+          "id": "motive-2co-12-15",
+          "reference": "2 Corinthians 12:15",
+          "apiPassages": [
+            "2CO.12.15"
+          ]
+        },
+        {
+          "id": "motive-isa-14-13",
+          "reference": "Isaiah 14:13",
+          "apiPassages": [
+            "ISA.14.13"
+          ]
+        },
+        {
+          "id": "motive-php-2-8",
+          "reference": "Philippians 2:8",
+          "apiPassages": [
+            "PHP.2.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "methods",
+      "title": "III. Methods — How Is Spiritual Power Exercised?",
+      "summary": "Paul confronts spiritual strongholds through the meekness and gentleness of Christ, using weapons that are mighty through God rather than carnal. True ministry joins truth with love, boldness with meekness, authority with service, and correction with restoration. Authority comes from God through His servant to build others up. False authority enslaves, devours, takes, exalts itself, and coerces, even when claiming to defend truth or protect the church. God’s government of love and liberty cannot be vindicated through methods that contradict the Cross.",
+      "passages": [
+        {
+          "id": "methods-2co-10-1",
+          "reference": "2 Corinthians 10:1",
+          "apiPassages": [
+            "2CO.10.1"
+          ]
+        },
+        {
+          "id": "methods-2co-10-4",
+          "reference": "2 Corinthians 10:4",
+          "apiPassages": [
+            "2CO.10.4"
+          ]
+        },
+        {
+          "id": "methods-2co-10-8",
+          "reference": "2 Corinthians 10:8",
+          "apiPassages": [
+            "2CO.10.8"
+          ]
+        },
+        {
+          "id": "methods-2co-11-20",
+          "reference": "2 Corinthians 11:20",
+          "apiPassages": [
+            "2CO.11.20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "character",
+      "title": "IV. Character — Whose Character Does the Minister Reveal?",
+      "summary": "Religious appearance, zeal, charisma, miracles, and institutional success cannot establish authenticity. The deeper test is the governing principle revealed in the life: genuine self-renouncing love identifies Christ’s disciples. Paul’s beatings, imprisonment, shipwrecks, deprivation, dangers, and concern for the churches matter because of what he willingly endured for Christ and others and how he responded. He seeks people rather than their possessions and spends himself for their good, following the Son of man’s pattern of service, suffering, self-sacrifice, and blessing others.",
+      "passages": [
+        {
+          "id": "character-2co-11-14",
+          "reference": "2 Corinthians 11:14",
+          "apiPassages": [
+            "2CO.11.14"
+          ]
+        },
+        {
+          "id": "character-2co-11-15",
+          "reference": "2 Corinthians 11:15",
+          "apiPassages": [
+            "2CO.11.15"
+          ]
+        },
+        {
+          "id": "character-jhn-13-35",
+          "reference": "John 13:35",
+          "apiPassages": [
+            "JHN.13.35"
+          ]
+        },
+        {
+          "id": "character-2co-11-23-2co-11-30",
+          "reference": "2 Corinthians 11:23–30",
+          "apiPassages": [
+            "2CO.11.23-2CO.11.30"
+          ]
+        },
+        {
+          "id": "character-2co-12-14-2co-12-15",
+          "reference": "2 Corinthians 12:14–15",
+          "apiPassages": [
+            "2CO.12.14-2CO.12.15"
+          ]
+        },
+        {
+          "id": "character-mrk-10-45",
+          "reference": "Mark 10:45",
+          "apiPassages": [
+            "MRK.10.45"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "title": "V. Fruit — What Kind of People Does the Ministry Produce?",
+      "summary": "Jesus teaches that teachers are known by their fruits. Paul fears finding contention, envy, anger, slander, pride, disorder, and unrepented sexual sin among the Corinthians. His prayer is for their restoration, and he calls them to examine whether they are in the faith. The gospel produces restored human beings, beyond correct membership, doctrines, or activities alone. False ministry can leave people proud, competitive, exploitative, divisive, self-centered, and untransformed, concealing the Principle of Sin beneath Christian language and a reassuring religious exterior.",
+      "passages": [
+        {
+          "id": "fruit-mat-7-16",
+          "reference": "Matthew 7:16",
+          "apiPassages": [
+            "MAT.7.16"
+          ]
+        },
+        {
+          "id": "fruit-2co-12-20",
+          "reference": "2 Corinthians 12:20",
+          "apiPassages": [
+            "2CO.12.20"
+          ]
+        },
+        {
+          "id": "fruit-2co-12-21",
+          "reference": "2 Corinthians 12:21",
+          "apiPassages": [
+            "2CO.12.21"
+          ]
+        },
+        {
+          "id": "fruit-2co-13-9",
+          "reference": "2 Corinthians 13:9",
+          "apiPassages": [
+            "2CO.13.9"
+          ]
+        },
+        {
+          "id": "fruit-2co-13-5",
+          "reference": "2 Corinthians 13:5",
+          "apiPassages": [
+            "2CO.13.5"
+          ]
+        }
+      ]
+    }
+  ]
+}

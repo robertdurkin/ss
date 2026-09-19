@@ -1,5 +1,5 @@
 {
-  "defaultLesson": "lesson-11",
+  "defaultLesson": "lesson-12",
   "lessons": [
     {
       "id": "lesson-08",
@@ -17,6 +17,12 @@
       "number": 11,
       "title": "Stewardship and Mission",
       "file": "lesson-11.json"
+    },
+    {
+      "id": "lesson-12",
+      "number": 12,
+      "title": "Dealing With False Teachers",
+      "file": "lesson-12.json"
     }
   ]
 }
