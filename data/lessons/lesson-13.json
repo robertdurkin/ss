@@ -1,0 +1,189 @@
+{
+  "id": "lesson-13",
+  "number": 13,
+  "title": "Grace, Love, and Fellowship",
+  "titleAccent": "Grace",
+  "intro": "Trace the circuit of beneficence from the Father's love, through the grace of Christ and the fellowship of the Spirit, to a church that shares divine love with the world and returns thanksgiving and glory to God.",
+  "heroQuote": "Grace is love coming down. Fellowship is love spreading outward. Worship is love returning to its Source.",
+  "focus": {
+    "value": "03",
+    "label": "Grace, love, and fellowship"
+  },
+  "footer": {
+    "text": "The grace of the Lord Jesus Christ, and the love of God, and the communion of the Holy Ghost, be with you all.",
+    "reference": "2 Corinthians 13:14",
+    "translation": "KJV"
+  },
+  "themes": [
+    {
+      "id": "divine-source-of-the-circuit",
+      "title": "The Divine Source of the Circuit",
+      "summary": "The circuit of beneficence is the united work of the Godhead: the Father is the Source of love, the Son reveals it through His self-giving, and the Spirit communicates it to believers. Grace is received, flows through the church to others, and returns to God in thanksgiving and glory. Receiving in order to give is heaven's law of life. Lucifer's opposing principle replaces generosity with possession, service with domination, fellowship with rivalry, unity with division, and God's glory with self-glory. The gospel restores humanity to the eternal circuit of divine love.",
+      "passages": [
+        {
+          "id": "divine-source-of-the-circuit-2co-13-14",
+          "reference": "2 Corinthians 13:14",
+          "apiPassages": [
+            "2CO.13.14"
+          ]
+        },
+        {
+          "id": "divine-source-of-the-circuit-2co-4-15",
+          "reference": "2 Corinthians 4:15",
+          "apiPassages": [
+            "2CO.4.15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "love-of-the-father",
+      "title": "I. The Love of the Father — The Original Source",
+      "summary": "The circuit begins in the Father's heart. God answers Satan's portrayal of Him as selfish, restrictive, severe, and unwilling to give by giving His Son for undeserving sinners. Nothing can separate us from His love in Christ; any break in the circuit is never in God's outflow of love. First John 4 traces this movement: God loves and sends His Son, gives His Spirit, and awakens love within believers. Love received becomes love expressed toward others and love returned to God, its original Source.",
+      "passages": [
+        {
+          "id": "love-of-the-father-jhn-3-16",
+          "reference": "John 3:16",
+          "apiPassages": [
+            "JHN.3.16"
+          ]
+        },
+        {
+          "id": "love-of-the-father-rom-5-8",
+          "reference": "Romans 5:8",
+          "apiPassages": [
+            "ROM.5.8"
+          ]
+        },
+        {
+          "id": "love-of-the-father-rom-8-37-rom-8-39",
+          "reference": "Romans 8:37–39",
+          "apiPassages": [
+            "ROM.8.37-ROM.8.39"
+          ]
+        },
+        {
+          "id": "love-of-the-father-1jn-4-1-1jn-4-21",
+          "reference": "1 John 4",
+          "apiPassages": [
+            "1JN.4.1-1JN.4.21"
+          ]
+        },
+        {
+          "id": "love-of-the-father-1jn-4-9-1jn-4-11-1jn-4-13-1jn-4-19",
+          "reference": "1 John 4:9–11, 13, 19",
+          "apiPassages": [
+            "1JN.4.9-1JN.4.11",
+            "1JN.4.13",
+            "1JN.4.19"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "grace-of-christ",
+      "title": "II. The Grace of Christ — God's Love Flowing Downward",
+      "summary": "Grace is divine love moving toward the undeserving at infinite cost to the Giver. Christ became poor, took the form of a servant, entered human suffering, and humbled Himself to the death of the cross so that we could be lifted up. Calvary answers the accusation that God is selfish or unwilling to give and reveals self-renouncing love as the law of God's own life. Christ received from the Father in order to give. Through the Spirit, grace also reproduces God's character in us: beholding His glory transforms us, and His love flows through us to others. A transformed church becomes living evidence before the universe that God's way sustains life, freedom, unity, and happiness.",
+      "passages": [
+        {
+          "id": "grace-of-christ-2co-8-9",
+          "reference": "2 Corinthians 8:9",
+          "apiPassages": [
+            "2CO.8.9"
+          ]
+        },
+        {
+          "id": "grace-of-christ-gal-2-20",
+          "reference": "Galatians 2:20",
+          "apiPassages": [
+            "GAL.2.20"
+          ]
+        },
+        {
+          "id": "grace-of-christ-2co-5-19",
+          "reference": "2 Corinthians 5:19",
+          "apiPassages": [
+            "2CO.5.19"
+          ]
+        },
+        {
+          "id": "grace-of-christ-php-2-5-php-2-8",
+          "reference": "Philippians 2:5–8",
+          "apiPassages": [
+            "PHP.2.5-PHP.2.8"
+          ]
+        },
+        {
+          "id": "grace-of-christ-rom-5-5",
+          "reference": "Romans 5:5",
+          "apiPassages": [
+            "ROM.5.5"
+          ]
+        },
+        {
+          "id": "grace-of-christ-2co-3-18",
+          "reference": "2 Corinthians 3:18",
+          "apiPassages": [
+            "2CO.3.18"
+          ]
+        },
+        {
+          "id": "grace-of-christ-eph-3-10",
+          "reference": "Ephesians 3:10",
+          "apiPassages": [
+            "EPH.3.10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fellowship-of-the-spirit",
+      "title": "III. The Fellowship of the Spirit — Divine Love Communicated",
+      "summary": "Fellowship has two dimensions: participation in divine life through the Spirit's presence, and the unity He creates among believers. The Spirit of adoption assures us that we are God's children and makes the Father's love and Christ's grace present in our experience. Fellowship with God produces fellowship among His people, forming a body in which every spiritual gift benefits others. Through the New Covenant work of the Spirit, the law of love is written on human hearts, restoring believers to the circuit of divine love.",
+      "passages": [
+        {
+          "id": "fellowship-of-the-spirit-rom-8-15-rom-8-16",
+          "reference": "Romans 8:15–16",
+          "apiPassages": [
+            "ROM.8.15-ROM.8.16"
+          ]
+        },
+        {
+          "id": "fellowship-of-the-spirit-php-2-1-php-2-2",
+          "reference": "Philippians 2:1–2",
+          "apiPassages": [
+            "PHP.2.1-PHP.2.2"
+          ]
+        },
+        {
+          "id": "fellowship-of-the-spirit-1co-12-7",
+          "reference": "1 Corinthians 12:7",
+          "apiPassages": [
+            "1CO.12.7"
+          ]
+        },
+        {
+          "id": "fellowship-of-the-spirit-2co-3-3",
+          "reference": "2 Corinthians 3:3",
+          "apiPassages": [
+            "2CO.3.3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "benediction-as-the-goal-of-the-gospel",
+      "title": "Conclusion — The Benediction as the Goal of the Gospel",
+      "summary": "Paul's closing benediction summarizes the work of salvation. The Father's love is the eternal Source; Christ's grace is that love descending to rescue the undeserving; and the Spirit's fellowship brings divine life into us and unites us with one another. The church becomes the channel through which love reaches the world, while praise and thanksgiving return to God, completing the circuit of beneficence.",
+      "passages": [
+        {
+          "id": "benediction-as-the-goal-of-the-gospel-2co-13-14",
+          "reference": "2 Corinthians 13:14",
+          "apiPassages": [
+            "2CO.13.14"
+          ]
+        }
+      ]
+    }
+  ]
+}
