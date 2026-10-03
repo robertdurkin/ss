@@ -1,0 +1,299 @@
+{
+  "id": "lesson-01",
+  "number": 1,
+  "title": "The Creator Speaks",
+  "titleAccent": "Creator",
+  "intro": "September 26–October 2, 2026. Explore the gift of prophecy as God’s provision for restoring His image in humanity and the communion that sin disrupted.",
+  "heroQuote": "The gift of prophecy is therefore an expression of God's determination to restore the relationship that sin destroyed.",
+  "focus": {
+    "value": "10",
+    "label": "Principles of Biblical Prophecy"
+  },
+  "footer": {
+    "text": "God, who at various times and in various ways spoke in time past to the fathers by the prophets, has in these last days spoken to us by His Son.",
+    "reference": "Hebrews 1:1–2",
+    "translation": "NKJV"
+  },
+  "themes": [
+    {
+      "id": "god-speaks",
+      "title": "God Speaks to Restore Communion",
+      "summary": "The Creator continues speaking to fallen humanity through prophets and most fully through His Son. The gift of prophecy expresses His determination to restore the relationship broken by sin.",
+      "passages": [
+        {
+          "id": "god-speaks-heb-1-1-heb-1-2",
+          "reference": "Hebrews 1:1–2",
+          "apiPassages": [
+            "HEB.1.1-HEB.1.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "image-restored",
+      "title": "From Image Lost to Image Restored",
+      "summary": "Humanity was created in God’s image. Sin damaged that likeness, but through Christ and the Spirit it is renewed until we are conformed to His image and become like Him.",
+      "passages": [
+        {
+          "id": "image-restored-gen-1-27",
+          "reference": "Genesis 1:27",
+          "apiPassages": [
+            "GEN.1.27"
+          ]
+        },
+        {
+          "id": "image-restored-rom-3-23",
+          "reference": "Romans 3:23",
+          "apiPassages": [
+            "ROM.3.23"
+          ]
+        },
+        {
+          "id": "image-restored-2co-3-18",
+          "reference": "2 Corinthians 3:18",
+          "apiPassages": [
+            "2CO.3.18"
+          ]
+        },
+        {
+          "id": "image-restored-rom-8-29",
+          "reference": "Romans 8:29",
+          "apiPassages": [
+            "ROM.8.29"
+          ]
+        },
+        {
+          "id": "image-restored-1jn-3-2",
+          "reference": "1 John 3:2",
+          "apiPassages": [
+            "1JN.3.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "creation-direct-communion",
+      "title": "1. Creation — Direct Communication With God",
+      "summary": "Adam and Eve were made for direct communion with God. He spoke to them personally; prophetic messengers were not part of their original need.",
+      "passages": [
+        {
+          "id": "creation-direct-communion-gen-2-16-gen-2-17",
+          "reference": "Genesis 2:16–17",
+          "apiPassages": [
+            "GEN.2.16-GEN.2.17"
+          ]
+        },
+        {
+          "id": "creation-direct-communion-gen-3-8",
+          "reference": "Genesis 3:8",
+          "apiPassages": [
+            "GEN.3.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "two-voices",
+      "title": "2. The Great Controversy Begins With Two Voices",
+      "summary": "God’s word and the serpent’s word contradict one another. The controversy concerns whose word can be trusted and whose representation of God’s character is true.",
+      "passages": [
+        {
+          "id": "two-voices-gen-2-16-gen-2-17",
+          "reference": "Genesis 2:16–17",
+          "apiPassages": [
+            "GEN.2.16-GEN.2.17"
+          ]
+        },
+        {
+          "id": "two-voices-gen-3-1-gen-3-6",
+          "reference": "Genesis 3:1–6",
+          "apiPassages": [
+            "GEN.3.1-GEN.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sin-and-hiding",
+      "title": "3. Sin Produces Hiding",
+      "summary": "After sin, God’s voice evokes fear and hiding. Humanity’s perception of Him changes, disrupting the openness of communion.",
+      "passages": [
+        {
+          "id": "sin-and-hiding-gen-3-8-gen-3-10",
+          "reference": "Genesis 3:8–10",
+          "apiPassages": [
+            "GEN.3.8-GEN.3.10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "god-seeks-humanity",
+      "title": "4. God Seeks Humanity — Where Are You?",
+      "summary": "God does not abandon Adam and Eve after the Fall. His question reveals His pursuit of the broken relationship: He speaks because He wants His children back.",
+      "passages": [
+        {
+          "id": "god-seeks-humanity-gen-3-9",
+          "reference": "Genesis 3:9",
+          "apiPassages": [
+            "GEN.3.9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "first-prophecy-first-gospel",
+      "title": "5. The First Prophecy Is Also the First Gospel",
+      "summary": "The promise of the coming Seed points to Christ’s victory over the serpent. The lesson traces this Christ-centered purpose through Scripture and the testimony of Jesus.",
+      "passages": [
+        {
+          "id": "first-prophecy-first-gospel-gen-3-15",
+          "reference": "Genesis 3:15",
+          "apiPassages": [
+            "GEN.3.15"
+          ]
+        },
+        {
+          "id": "first-prophecy-first-gospel-jhn-5-39",
+          "reference": "John 5:39",
+          "apiPassages": [
+            "JHN.5.39"
+          ]
+        },
+        {
+          "id": "first-prophecy-first-gospel-rev-19-10",
+          "reference": "Revelation 19:10",
+          "apiPassages": [
+            "REV.19.10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-prophets-became-necessary",
+      "title": "6. Why Prophets Became Necessary",
+      "summary": "Sin separates humanity from God and alters its ability to experience His unveiled presence. The prophetic gift is an accommodation of divine grace during this separation.",
+      "passages": [
+        {
+          "id": "why-prophets-became-necessary-isa-59-2",
+          "reference": "Isaiah 59:2",
+          "apiPassages": [
+            "ISA.59.2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prophetic-communication",
+      "title": "7. Prophecy — Communication Through Human Messengers",
+      "summary": "God makes Himself known through visions and dreams and reveals His purposes to His servants the prophets. Prophecy maintains communication with fallen humanity.",
+      "passages": [
+        {
+          "id": "prophetic-communication-num-12-6",
+          "reference": "Numbers 12:6",
+          "apiPassages": [
+            "NUM.12.6"
+          ]
+        },
+        {
+          "id": "prophetic-communication-amo-3-7",
+          "reference": "Amos 3:7",
+          "apiPassages": [
+            "AMO.3.7"
+          ]
+        },
+        {
+          "id": "prophetic-communication-heb-1-1",
+          "reference": "Hebrews 1:1",
+          "apiPassages": [
+            "HEB.1.1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "christ-speaks",
+      "title": "8. Christ — God Comes Personally to Speak",
+      "summary": "God’s revelation advances from speaking through prophets to speaking through His Son. The Word becomes flesh, and Jesus reveals the Father most fully.",
+      "passages": [
+        {
+          "id": "christ-speaks-heb-1-1-heb-1-2",
+          "reference": "Hebrews 1:1–2",
+          "apiPassages": [
+            "HEB.1.1-HEB.1.2"
+          ]
+        },
+        {
+          "id": "christ-speaks-jhn-1-14",
+          "reference": "John 1:14",
+          "apiPassages": [
+            "JHN.1.14"
+          ]
+        },
+        {
+          "id": "christ-speaks-jhn-14-9",
+          "reference": "John 14:9",
+          "apiPassages": [
+            "JHN.14.9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "spirit-continues-communication",
+      "title": "9. The Holy Spirit Continues the Communication",
+      "summary": "The Spirit guides believers into truth and bears witness that they are God’s children. Through Him, Christ continues making Himself known while His people await face-to-face fellowship.",
+      "passages": [
+        {
+          "id": "spirit-continues-communication-jhn-16-13",
+          "reference": "John 16:13",
+          "apiPassages": [
+            "JHN.16.13"
+          ]
+        },
+        {
+          "id": "spirit-continues-communication-rom-8-16",
+          "reference": "Romans 8:16",
+          "apiPassages": [
+            "ROM.8.16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communion-restored",
+      "title": "10. The Consummation — Direct Communion Restored",
+      "summary": "Revelation brings the story back to Eden: God dwells with humanity, and His servants see His face. The relationship disrupted by sin is fully restored.",
+      "passages": [
+        {
+          "id": "communion-restored-rev-21-3",
+          "reference": "Revelation 21:3",
+          "apiPassages": [
+            "REV.21.3"
+          ]
+        },
+        {
+          "id": "communion-restored-rev-22-3-rev-22-4",
+          "reference": "Revelation 22:3–4",
+          "apiPassages": [
+            "REV.22.3-REV.22.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "present-condition",
+      "title": "Present Condition — We Prophesy in Part",
+      "summary": "Prophecy belongs to the present age of partial knowledge. It is God’s gracious provision until the restoration of face-to-face communion, when partial knowledge gives way to fullness.",
+      "passages": [
+        {
+          "id": "present-condition-1co-13-8-1co-13-12",
+          "reference": "1 Corinthians 13:8–12",
+          "apiPassages": [
+            "1CO.13.8-1CO.13.12"
+          ]
+        }
+      ]
+    }
+  ]
+}
