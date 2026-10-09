@@ -8,6 +8,12 @@
       "file": "lesson-01.json"
     },
     {
+      "id": "lesson-02",
+      "number": 2,
+      "title": "The Call of a Prophet",
+      "file": "lesson-02.json"
+    },
+    {
       "id": "lesson-08",
       "number": 8,
       "title": "The Power of Christ's Resurrection",

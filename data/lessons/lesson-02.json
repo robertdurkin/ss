@@ -1,0 +1,179 @@
+{
+  "id": "lesson-02",
+  "number": 2,
+  "title": "The Call of a Prophet",
+  "titleAccent": "Prophet",
+  "intro": "October 3–9, 2026. God calls prophets not merely to predict the future, but to participate in His redemptive work of restoring fallen humanity to Himself.",
+  "heroQuote": "God graciously initiates communication. He calls human messengers through whom He reveals Himself, interprets events, equips His people, encourages the faithful, and calls sinners back to Himself.",
+  "focus": {
+    "value": "05",
+    "label": "Purposes of the Prophetic Gift"
+  },
+  "footer": {
+    "text": "Also I heard the voice of the Lord, saying, Whom shall I send, and who will go for us? Then said I, Here am I; send me.",
+    "reference": "Isaiah 6:8",
+    "translation": "KJV"
+  },
+  "themes": [
+    {
+      "id": "called-to-restore",
+      "title": "Key Text — Called to God's Restorative Work",
+      "summary": "God calls prophets to restore His people to faithfulness and to reveal the promised salvation in the Messiah. Isaiah's willing response introduces the lesson's central question: What does God send His messengers to communicate, and what does He intend to accomplish through them?",
+      "passages": [
+        {
+          "id": "called-to-restore-isa-6-8",
+          "reference": "Isaiah 6:8",
+          "apiPassages": ["ISA.6.8"]
+        }
+      ]
+    },
+    {
+      "id": "why-god-speaks",
+      "title": "From Last Week — Why Does God Speak?",
+      "summary": "Humanity was created in God's image for direct communion with Him. Sin distorted that image and broke the relationship: we no longer see God clearly or hear Him directly. God does not abandon humanity to silence. Prophecy reveals His character, corrects our distorted perception of Him, and maintains redemptive communication until face-to-face communion is restored. It is relational, Christ-centered, and an accommodation of divine grace.",
+      "passages": [
+        {
+          "id": "why-god-speaks-gen-1-26-gen-1-27",
+          "reference": "Genesis 1:26–27",
+          "apiPassages": ["GEN.1.26-GEN.1.27"]
+        },
+        {
+          "id": "why-god-speaks-gen-3-8",
+          "reference": "Genesis 3:8",
+          "apiPassages": ["GEN.3.8"]
+        }
+      ]
+    },
+    {
+      "id": "five-purposes",
+      "title": "The Five Purposes of Prophecy",
+      "summary": "The prophetic gift serves five closely related purposes: to reveal God, His truth, and His will; to give insight and counsel regarding important events; to equip the church for mission; to provide spiritual encouragement; and to awaken sinners and call them to repentance. Prediction helps God's people understand His purposes and respond faithfully. Warning exposes sin so that the sinner may be healed. All five purposes serve one restorative goal: a right knowledge of God, a renewed relationship with Him, and the restoration of His image in humanity.",
+      "passages": [
+        {
+          "id": "five-purposes-isa-46-10",
+          "reference": "Isaiah 46:10",
+          "apiPassages": ["ISA.46.10"],
+          "note": "God sees the whole of history and declares His purpose from the beginning."
+        },
+        {
+          "id": "five-purposes-isa-58-1",
+          "reference": "Isaiah 58:1",
+          "apiPassages": ["ISA.58.1"],
+          "note": "Prophetic warning exposes the people's true condition and calls them to repentance."
+        }
+      ]
+    },
+    {
+      "id": "abraham-mission",
+      "title": "1. Abraham — Called and Blessed for Mission",
+      "summary": "Purpose: to equip God's people for mission. God's covenant blessing was intended to reach all families of the earth through Abraham. Paul connects this promise directly with the gospel. The principle is that prophecy is first relational and redemptive: God speaks, Abraham trusts, a covenant relationship develops, and Abraham becomes God's instrument of blessing to others. Receiving divine revelation creates a missionary responsibility.",
+      "passages": [
+        {
+          "id": "abraham-mission-gen-12-1-gen-12-3",
+          "reference": "Genesis 12:1–3",
+          "apiPassages": ["GEN.12.1-GEN.12.3"]
+        },
+        {
+          "id": "abraham-mission-gal-3-8",
+          "reference": "Galatians 3:8",
+          "apiPassages": ["GAL.3.8"]
+        },
+        {
+          "id": "abraham-mission-jas-2-23",
+          "reference": "James 2:23",
+          "apiPassages": ["JAS.2.23"]
+        }
+      ]
+    },
+    {
+      "id": "elijah-repentance",
+      "title": "2. Elijah — Calling a People Back to the True God",
+      "summary": "Purpose: to awaken sinners and call them to repentance. Carmel confronts two competing conceptions of God. The prophets of Baal attempt to manipulate and appease their god, while Elijah's simple prayer reveals the true God who hears, acts, and seeks His people's restoration. The prophet communicates God's revelation, and God's actions demonstrate His character. Prophetic revelation corrects Satan's misrepresentation of God and turns hearts back to Him.",
+      "passages": [
+        {
+          "id": "elijah-repentance-1ki-18-21",
+          "reference": "1 Kings 18:21",
+          "apiPassages": ["1KI.18.21"]
+        },
+        {
+          "id": "elijah-repentance-1ki-18-37",
+          "reference": "1 Kings 18:37",
+          "apiPassages": ["1KI.18.37"]
+        },
+        {
+          "id": "elijah-repentance-1ki-18-39",
+          "reference": "1 Kings 18:39",
+          "apiPassages": ["1KI.18.39"]
+        }
+      ]
+    },
+    {
+      "id": "isaiah-call",
+      "title": "3. Isaiah — Revelation, Cleansing, and Calling",
+      "summary": "Purpose: to reveal God, His truth, and His will for fallen humanity. Isaiah's call follows a restorative sequence: revelation, conviction, cleansing, calling, and mission. Seeing God transforms Isaiah's understanding of both God and himself. God cleanses the messenger before sending him. The prophet must first experience God's restorative work before becoming His instrument of restoration to others.",
+      "passages": [
+        {
+          "id": "isaiah-call-isa-6-1-isa-6-5-isa-6-7-isa-6-8",
+          "reference": "Isaiah 6:1, 5, 7–8",
+          "apiPassages": ["ISA.6.1", "ISA.6.5", "ISA.6.7-ISA.6.8"]
+        }
+      ]
+    },
+    {
+      "id": "isaiah-messiah",
+      "title": "Isaiah — Revealing God Through the Coming Messiah",
+      "summary": "Prophecy is fundamentally Christ-centered. Isaiah reveals not only that Christ will suffer, but the saving meaning of His suffering: He is wounded for our transgressions, bears our iniquities, and justifies many. The prophetic revelation of God ultimately converges upon Christ, in whom God's character and saving purpose are most fully revealed.",
+      "passages": [
+        {
+          "id": "isaiah-messiah-isa-53-1-isa-53-12",
+          "reference": "Isaiah 53",
+          "apiPassages": ["ISA.53.1-ISA.53.12"],
+          "note": "The study emphasizes Isaiah 53:5, 6, and 11: Christ suffers for our transgressions, bears our iniquities, and justifies many."
+        }
+      ]
+    },
+    {
+      "id": "daniel-history",
+      "title": "4. Daniel — Seeing History From God's Perspective",
+      "summary": "Purpose: to give insight and counsel regarding important events. Through Daniel, God interprets the rise and fall of earthly kingdoms in light of His eternal kingdom. The Son of man receives an everlasting dominion. Prophecy maintains communication with God's people in exile, assuring them that He has not abandoned them and that history remains under His control. It helps them understand present events in light of His ultimate purposes.",
+      "passages": [
+        {
+          "id": "daniel-history-dan-2-1-dan-2-49",
+          "reference": "Daniel 2",
+          "apiPassages": ["DAN.2.1-DAN.2.49"],
+          "note": "The study emphasizes Daniel 2:44: the God of heaven establishes a kingdom that will never be destroyed."
+        },
+        {
+          "id": "daniel-history-dan-7-1-dan-7-28",
+          "reference": "Daniel 7",
+          "apiPassages": ["DAN.7.1-DAN.7.28"],
+          "note": "The study quotes Daniel 7:13; verse 14 describes the everlasting kingdom given to the Son of man."
+        }
+      ]
+    },
+    {
+      "id": "john-encouragement",
+      "title": "5. John the Baptist — Grace for a Struggling Prophet",
+      "summary": "Purpose: to provide spiritual encouragement to God's followers. John calls sinners to repentance, yet in prison the prophet himself needs encouragement. Jesus answers his question by pointing to the evidence of His saving work. This illustrates prophecy as an accommodation of divine grace: God understands human weakness and graciously communicates in ways His people can receive. Separation creates the need for mediated communication, and grace provides the revelation needed to sustain faith amid uncertainty.",
+      "passages": [
+        {
+          "id": "john-encouragement-mrk-1-1-mrk-1-8",
+          "reference": "Mark 1:1–8",
+          "apiPassages": ["MRK.1.1-MRK.1.8"],
+          "note": "The opening of Mark 1 provides the study's background on John's ministry of repentance."
+        },
+        {
+          "id": "john-encouragement-mat-11-1-mat-11-6",
+          "reference": "Matthew 11:1–6",
+          "apiPassages": ["MAT.11.1-MAT.11.6"],
+          "note": "The study emphasizes John's question in Matthew 11:3 and Jesus' reassuring evidence in Matthew 11:5."
+        }
+      ]
+    },
+    {
+      "id": "bringing-the-five-together",
+      "title": "Bringing the Five Together — One Restorative Purpose",
+      "summary": "God establishes relationship, calls us back when that relationship is broken, reveals Himself supremely in Christ, helps us understand history while we await restoration, and sustains our faith when we cannot see or understand what He is doing. Each prophetic ministry serves the same goal: restoring God's image in humanity and the face-to-face communion with Him for which humanity was created."
+    }
+  ]
+}
