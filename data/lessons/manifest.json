@@ -1,5 +1,5 @@
 {
-  "defaultLesson": "lesson-02",
+  "defaultLesson": "lesson-03",
   "lessons": [
     {
       "id": "lesson-01",
@@ -12,6 +12,12 @@
       "number": 2,
       "title": "The Call of a Prophet",
       "file": "lesson-02.json"
+    },
+    {
+      "id": "lesson-03",
+      "number": 3,
+      "title": "Old Testament Prophets",
+      "file": "lesson-03.json"
     },
     {
       "id": "lesson-08",

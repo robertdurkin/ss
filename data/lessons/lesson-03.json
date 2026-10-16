@@ -1,0 +1,151 @@
+{
+  "id": "lesson-03",
+  "number": 3,
+  "title": "Old Testament Prophets",
+  "titleAccent": "Prophets",
+  "intro": "October 10–16, 2026. God calls ordinary, imperfect people from every walk of life, empowering them to faithfully communicate His message and reveal His character.",
+  "heroQuote": "God calls prophets to participate in His redemptive work of restoring fallen humanity to Himself.",
+  "focus": {
+    "value": "05",
+    "label": "Prophetic Ministry Parallels"
+  },
+  "footer": {
+    "text": "Jehoshaphat stood and said, “Hear me, O Judah and you inhabitants of Jerusalem: Believe in the Lord your God, and you shall be established; believe His prophets, and you shall prosper.”",
+    "reference": "2 Chronicles 20:20",
+    "translation": "NKJV"
+  },
+  "themes": [
+    {
+      "id": "believe-his-prophets",
+      "title": "Key Text — Believe His Prophets",
+      "summary": "Lesson 1 established why God gives prophecy: to maintain communication, reveal His character, and restore His image in humanity. Lesson 2 established what God sends prophets to do: reveal, correct, warn, guide, and restore. Lesson 3 considers whom God chooses and how He works through them. God empowers ordinary, imperfect people to communicate His message faithfully.",
+      "passages": [
+        {
+          "id": "believe-his-prophets-2ch-20-20",
+          "reference": "2 Chronicles 20:20",
+          "apiPassages": [
+            "2CH.20.20"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "why-god-speaks",
+      "title": "From Week 1 — Why Does God Speak?",
+      "summary": "The gift of prophecy expresses God's determination to restore the relationship sin destroyed. Humanity was created in His image for direct communion with Him, but sin distorted that image and broke the relationship. God responds through revelation and demonstration: He communicates the truth about Himself and shows that truth in action, supremely through Jesus Christ. Prophecy participates in both through the messages God gives and His dealings with His messengers and their hearers."
+    },
+    {
+      "id": "five-principles",
+      "title": "The Five Principles of Prophecy",
+      "summary": "1. Prophecy is a revelation of God's character.\n2. Biblical prophecy is first relational and redemptive.\n3. Prophecy is fundamentally Christ-centered.\n4. Prophecy is an accommodation of divine grace.\n5. Prophecy is God's provision for maintaining communication with fallen humanity."
+    },
+    {
+      "id": "five-purposes",
+      "title": "The Five Purposes of Prophecy",
+      "summary": "1. To reveal Himself, His truth, and His will for fallen humanity\n2. To give insight and counsel regarding important events and happenings\n3. To equip the body of Christ—the church—for mission\n4. To provide spiritual encouragement to His followers\n5. To awaken sinners and call them to repentance",
+      "passages": [
+        {
+          "id": "five-purposes-isa-46-10",
+          "reference": "Isaiah 46:10",
+          "apiPassages": [
+            "ISA.46.10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ancient-and-modern-israel",
+      "title": "Ancient Israel and Modern Israel",
+      "summary": "God called ancient Israel to reveal His character and the plan of salvation to the nations and to prepare the world for the Messiah's first advent. His law, sanctuary services, covenant promises, and prophetic guidance supported that mission. The study draws a parallel with the Second Advent movement's calling to proclaim the everlasting gospel, restore neglected biblical truths, and prepare the world for Christ's return. Both callings require faithfulness, a distinctive witness, and guidance against deception and spiritual compromise. The principles and purposes of prophecy converge on restoring God's image in humanity and provide the study's basis for expecting the gift to continue."
+    },
+    {
+      "id": "elijah-human-weakness",
+      "title": "1. Elijah — God Works Through Human Weakness and Discouragement",
+      "summary": "Elijah experienced fear, exhaustion, discouragement, and inadequacy, yet God patiently restored and recommissioned him. The study parallels his experience with Ellen White's youth, physical frailty, limited formal education, and reluctance to accept the responsibility of being God's messenger. Despite discouragement, she accepted the calling and continued her ministry for approximately seventy years. God does not choose His messengers because they possess extraordinary human strength; He works through weak and imperfect instruments, demonstrating the sufficiency of His grace.",
+      "passages": [
+        {
+          "id": "elijah-human-weakness-jas-5-17",
+          "reference": "James 5:17",
+          "apiPassages": [
+            "JAS.5.17"
+          ]
+        },
+        {
+          "id": "elijah-human-weakness-1ki-19-4",
+          "reference": "1 Kings 19:4",
+          "apiPassages": [
+            "1KI.19.4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "micaiah-faithfulness",
+      "title": "2. Micaiah — Faithfulness to God's Message Despite Opposition",
+      "summary": "Micaiah refused to join the four hundred prophets telling Ahab what he wanted to hear. His loyalty was to God's message rather than human approval. The study compares his faithfulness with Ellen White's support for the emphasis on righteousness by faith presented by A. T. Jones and E. J. Waggoner in 1888. She urged leaders and members to examine the message in the light of Scripture despite prejudice and opposition. A prophetic messenger must remain faithful to entrusted truth even when it challenges the religious establishment.",
+      "passages": [
+        {
+          "id": "micaiah-faithfulness-1ki-22-14",
+          "reference": "1 Kings 22:14",
+          "apiPassages": [
+            "1KI.22.14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "samuel-guidance",
+      "title": "3. Samuel — Guiding the People and Confronting Unfaithful Leadership",
+      "summary": "Samuel guided Israel during a critical transition, confronted spiritual departures, and warned against imitating surrounding nations. When the people demanded a king, God identified their request as a rejection of His reign. The study parallels Samuel's ministry with Ellen White's guidance on church organization, health, education, mission, and leadership accountability. Both ministries sought to preserve the distinctive identity and mission of God's people. The prophetic gift provides guidance for the church's corporate faithfulness and mission.",
+      "passages": [
+        {
+          "id": "samuel-guidance-1sa-8-5-1sa-8-7",
+          "reference": "1 Samuel 8:5–7",
+          "apiPassages": [
+            "1SA.8.5-1SA.8.7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "women-prophets",
+      "title": "4. Miriam, Deborah, and Huldah — God Is No Respecter of Persons",
+      "summary": "Joel describes the Spirit's prophetic gifts reaching sons and daughters, young and old, servants and handmaids. Miriam, Deborah, and Huldah illustrate that God does not restrict the prophetic gift to men or to holders of particular religious offices. Josiah's representatives sought Huldah's counsel, a parallel the study draws with church leaders seeking Ellen White's guidance. God bestows the prophetic gift according to His sovereign calling, not according to gender, age, social status, or educational attainment.",
+      "passages": [
+        {
+          "id": "women-prophets-jol-2-28-jol-2-29",
+          "reference": "Joel 2:28–29",
+          "apiPassages": [
+            "JOL.2.28-JOL.2.29"
+          ]
+        },
+        {
+          "id": "women-prophets-2ki-22-11-2ki-22-14",
+          "reference": "2 Kings 22:11–14",
+          "apiPassages": [
+            "2KI.22.11-2KI.22.14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jeremiah-authentic-authority",
+      "title": "5. Jeremiah and the False Prophets — Authentic Prophetic Authority Comes From God",
+      "summary": "Jeremiah identifies a purpose of genuine prophecy: turning people from sin and restoring covenant faithfulness. The study connects this with Ellen White's calls for repentance, warnings against deception and false security, and insistence that her messages direct people back to Scripture. Denominational identity, doctrinal knowledge, and religious activity cannot replace conversion and Christlike character. Prophetic authority comes from God and must be evaluated according to His revealed Word, rather than personality, popularity, institutional position, or claims to visions.",
+      "passages": [
+        {
+          "id": "jeremiah-authentic-authority-jer-23-22",
+          "reference": "Jeremiah 23:22",
+          "apiPassages": [
+            "JER.23.22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "one-redemptive-purpose",
+      "title": "Summary — One Redemptive Purpose",
+      "summary": "In ancient Israel, God called imperfect human instruments to reveal His character, confront spiritual compromise, guide His people, and preserve their mission as a light to the nations. The study presents Ellen White's ministry as fulfilling comparable functions for a movement called to proclaim the everlasting gospel and prepare the world for Christ's second coming. These ministries share the redemptive purpose of restoring humanity to God."
+    }
+  ]
+}
