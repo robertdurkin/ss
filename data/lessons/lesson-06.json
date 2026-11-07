@@ -1,0 +1,361 @@
+{
+  "id": "lesson-06",
+  "number": 6,
+  "title": "Revelation and Inspiration and The Prophetic Writings",
+  "titleAccent": "The Prophetic Writings",
+  "intro": "Lessons 5 & 6. God entrusts divine treasure to human vessels. This study compares Ellen White’s experience with the biblical model of revelation, inspiration, and prophetic communication.",
+  "heroQuote": "Inspiration does not eliminate the human element; it works through the human element.",
+  "focus": {
+    "value": "07",
+    "label": "Principles of Prophetic Inspiration"
+  },
+  "footer": {
+    "text": "But we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us.",
+    "reference": "2 Corinthians 4:7",
+    "translation": "KJV"
+  },
+  "themes": [
+    {
+      "id": "divine-treasure",
+      "title": "Introduction — The Divine Treasure in Human Vessels",
+      "summary": "God is the source of the light. The light is the knowledge of His glory—the revelation of His character—and that glory is revealed supremely in Jesus Christ. This treasure is entrusted to earthen vessels: weak, finite human beings through whom God communicates His revelation. The purpose is to demonstrate God’s power. The life of Jesus is to be manifested in our mortal flesh.\n\nFrom Lesson 1: God speaks because He is working to restore in fallen humanity the image of Himself that sin has obscured. This principle applies naturally to prophecy. Moses, Jeremiah, Elijah, and Paul were human instruments with limitations, yet God could communicate through them a message whose power and authority originated with Him.\n\nEllen White had limited formal education and significant physical weakness, employed literary assistants, used historical sources, and sometimes revised her writings. Seventh-day Adventists nevertheless believe that God communicated inspired messages through her ministry.",
+      "passages": [
+        {
+          "id": "divine-treasure-2co-4-6-2co-4-7",
+          "reference": "2 Corinthians 4:6–7",
+          "apiPassages": [
+            "2CO.4.6-2CO.4.7"
+          ]
+        },
+        {
+          "id": "divine-treasure-2co-4-10-2co-4-11",
+          "reference": "2 Corinthians 4:10–11",
+          "apiPassages": [
+            "2CO.4.10-2CO.4.11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "questions-and-scope",
+      "title": "The Questions and Scope of Our Study",
+      "summary": "How does God communicate with a prophet? Does inspiration dictate the prophet’s exact words? Can an inspired prophet use assistants, editors, and historical sources? Can inspired writing contain ordinary human characteristics? How do we distinguish divine authority from the human instrument through which it is communicated?\n\nWhat is the biblical model of inspiration? Does Ellen White’s prophetic ministry exhibit the same principles of revelation, inspiration, and communication found in the ministries of biblical prophets?\n\nThis study seeks to establish compatibility between Ellen White’s experience and the biblical model. The authenticity of her prophetic gift is a separate question. It must be evaluated by the biblical tests of a prophet, the faithfulness of her message to Scripture, and the character and fruit of her ministry."
+    },
+    {
+      "id": "revelation-to-prophets",
+      "title": "I. How Does God Reveal Truth to Prophets?",
+      "summary": "Ellen White’s experience: She reported receiving approximately 2,000 visions and prophetic dreams during her lifetime. Her first vision came in December 1844, while she was a teenager. She described instruction through visions, dreams, symbolic representations, and impressions of divine truth. Not every writing resulted from a distinct vision; much of her work explained, applied, and developed truths she believed God had previously revealed.\n\nThe biblical model: God makes Himself known through visions and dreams. Daniel and John received visions; Daniel and Joseph received dreams; Samuel heard direct verbal communication; angels instructed Daniel and John; and Jeremiah’s potter and Ezekiel’s model of Jerusalem illustrate symbolic representations.\n\nRevelation 1:1–2 presents a chain of communication: God the Father → Jesus Christ → His angel → John → the churches, as readers and hearers. Revelation originates with God, who chooses various means of communicating it. The particular method—vision, dream, angelic messenger, or another means—does not by itself establish the authority of the message.",
+      "passages": [
+        {
+          "id": "revelation-to-prophets-num-12-6",
+          "reference": "Numbers 12:6",
+          "apiPassages": [
+            "NUM.12.6"
+          ]
+        },
+        {
+          "id": "revelation-to-prophets-dan-7-1-dan-7-2",
+          "reference": "Daniel 7:1–2",
+          "apiPassages": [
+            "DAN.7.1-DAN.7.2"
+          ],
+          "note": "Verse 1 describes Daniel’s dream; verses 1–2 also describe his visions."
+        },
+        {
+          "id": "revelation-to-prophets-rev-1-10-rev-1-11",
+          "reference": "Revelation 1:10–11",
+          "apiPassages": [
+            "REV.1.10-REV.1.11"
+          ]
+        },
+        {
+          "id": "revelation-to-prophets-gen-37-5-gen-37-10",
+          "reference": "Genesis 37:5–10",
+          "apiPassages": [
+            "GEN.37.5-GEN.37.10"
+          ],
+          "note": "Joseph’s dreams."
+        },
+        {
+          "id": "revelation-to-prophets-1sa-3-4-1sa-3-14",
+          "reference": "1 Samuel 3:4–14",
+          "apiPassages": [
+            "1SA.3.4-1SA.3.14"
+          ]
+        },
+        {
+          "id": "revelation-to-prophets-dan-9-21-dan-9-23",
+          "reference": "Daniel 9:21–23",
+          "apiPassages": [
+            "DAN.9.21-DAN.9.23"
+          ]
+        },
+        {
+          "id": "revelation-to-prophets-rev-1-1-rev-1-2",
+          "reference": "Revelation 1:1–2",
+          "apiPassages": [
+            "REV.1.1-REV.1.2"
+          ],
+          "note": "The chain of communication, including the angelic messenger in verse 1."
+        },
+        {
+          "id": "revelation-to-prophets-jer-18-1-jer-18-6",
+          "reference": "Jeremiah 18:1–6",
+          "apiPassages": [
+            "JER.18.1-JER.18.6"
+          ]
+        },
+        {
+          "id": "revelation-to-prophets-ezk-4-1-ezk-4-8",
+          "reference": "Ezekiel 4:1–8",
+          "apiPassages": [
+            "EZK.4.1-EZK.4.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thought-and-expression",
+      "title": "II. Does Inspiration Dictate the Words or Communicate the Thoughts?",
+      "summary": "Ellen White’s experience: She distinguished the divine inspiration of a message from the human language used to communicate it. Her explanation provides the foundation for what Adventists commonly call thought inspiration, in contrast to a theory of universal verbal dictation.\n\nThe biblical model: Peter emphasizes the Holy Spirit’s influence upon the human messenger, while Paul affirms the divine origin and authority of the resulting Scripture. Moses, David, Isaiah, Luke, Paul, and John use distinctive vocabularies, literary styles, and methods of expression. The four Gospels describe events from differing perspectives. Scripture includes poetry, narrative, prophecy, parables, letters, and apocalyptic symbolism.\n\nThe theological principle: Inspiration works through the prophet’s language, personality, experience, and intellectual faculties. It does not eliminate the human element. This does not mean God could never dictate particular words: Scripture records specific divine wording and commands to write. Dictation, however, is not the universal model of inspiration.",
+      "passages": [
+        {
+          "id": "thought-and-expression-2pe-1-21",
+          "reference": "2 Peter 1:21",
+          "apiPassages": [
+            "2PE.1.21"
+          ]
+        },
+        {
+          "id": "thought-and-expression-2ti-3-16",
+          "reference": "2 Timothy 3:16",
+          "apiPassages": [
+            "2TI.3.16"
+          ]
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "The Bible is written by inspired men, but it is not God’s mode of thought and expression. It is that of humanity. God, as a writer, is not represented. Men will often say such an expression is not like God. But God has not put Himself in words, in logic, in rhetoric, on trial in the Bible. The writers of the Bible were God’s penmen, not His pen.",
+          "author": "Ellen G. White",
+          "source": "Selected Messages, vol. 1, p. 21"
+        },
+        {
+          "quote": "It is not the words of the Bible that are inspired, but the men that were inspired. Inspiration acts not on the man’s words or his expressions but on the man himself, who, under the influence of the Holy Ghost, is imbued with thoughts. But the words and thoughts receive the impress of the individual mind. The divine mind is diffused. The divine mind and will is combined with the human mind and will; thus the utterances of the man are the word of God.",
+          "author": "Ellen G. White",
+          "source": "Selected Messages, vol. 1, p. 21"
+        }
+      ]
+    },
+    {
+      "id": "assistants-and-editors",
+      "title": "III. The Human Process of Writing — Literary Assistants and Editors",
+      "summary": "Ellen White’s experience: She employed secretaries, copyists, and literary assistants. Marian Davis helped organize and prepare manuscripts for publication, and Willie White helped administer her literary work. Assistants copied manuscripts, corrected grammar and punctuation, organized previously written material, and prepared books for publication. Ellen White retained responsibility for messages published under her name. Historical evaluation must distinguish ordinary editorial assistance from substantive authorship and examine how particular books were prepared.\n\nThe biblical model: Baruch wrote the words of the Lord from Jeremiah’s mouth. After the king destroyed the scroll, Jeremiah dictated a replacement to Baruch, and many similar words were added. Paul also employed an amanuensis, or secretary: Tertius identifies himself as the one who wrote Romans.\n\nThe theological principle: Human assistance does not necessarily compromise a prophetic message’s divine origin or authority. These examples establish that inspired communication can involve secretaries and subsequent additions; they do not establish that every modern editorial practice is legitimate. Authority comes from God, not from the mechanical act of physically writing every word.",
+      "passages": [
+        {
+          "id": "assistants-and-editors-jer-36-4",
+          "reference": "Jeremiah 36:4",
+          "apiPassages": [
+            "JER.36.4"
+          ]
+        },
+        {
+          "id": "assistants-and-editors-jer-36-32",
+          "reference": "Jeremiah 36:32",
+          "apiPassages": [
+            "JER.36.32"
+          ]
+        },
+        {
+          "id": "assistants-and-editors-rom-16-22",
+          "reference": "Romans 16:22",
+          "apiPassages": [
+            "ROM.16.22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historical-investigation",
+      "title": "IV. Historical Investigation and Sources",
+      "summary": "Ellen White’s experience: In The Great Controversy she drew on historians, particularly in recounting the Protestant Reformation and other historical developments. In the introduction she acknowledged using historical accounts to present the conflict between truth and error. The book’s historical material was not all presented as information received directly in vision. Does using uninspired historical sources undermine the inspiration of a prophetic work?\n\nThe biblical model: Luke explains that others had written accounts, eyewitnesses had transmitted information, and he had carefully investigated before composing an orderly account. His Gospel was not simply a transcription of a vision. Chronicles refers to records associated with Samuel, Nathan, and Gad. Jude uses a prophecy attributed to Enoch, also known from ancient Jewish tradition. Paul quotes Greek poets while communicating biblical truth.\n\nThe theological principle: Inspiration does not necessarily replace research; it can guide the selection, interpretation, and application of information obtained through research. Luke demonstrates that historical investigation is compatible with inspired writing. This does not mean every historical detail was independently revealed, or that using a source guarantees its accuracy. Historical research can help demonstrate the unfolding conflict between the principles of Christ and Satan.",
+      "passages": [
+        {
+          "id": "historical-investigation-luk-1-1-luk-1-4",
+          "reference": "Luke 1:1–4",
+          "apiPassages": [
+            "LUK.1.1-LUK.1.4"
+          ]
+        },
+        {
+          "id": "historical-investigation-1ch-29-29",
+          "reference": "1 Chronicles 29:29",
+          "apiPassages": [
+            "1CH.29.29"
+          ]
+        },
+        {
+          "id": "historical-investigation-jud-1-14-jud-1-15",
+          "reference": "Jude 14–15",
+          "apiPassages": [
+            "JUD.1.14-JUD.1.15"
+          ]
+        },
+        {
+          "id": "historical-investigation-act-17-28",
+          "reference": "Acts 17:28",
+          "apiPassages": [
+            "ACT.17.28"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "forms-of-communication",
+      "title": "V. Did Biblical Prophets Communicate by Different Methods and in Different Forms?",
+      "summary": "Ellen White’s experience: Her ministry included personal testimonies and letters; books on Christ’s life, biblical history, and the Great Controversy; instruction on education, health, family life, church organization, and Christian service; and sermons, public appeals, and practical counsel. These writings had different purposes and audiences.\n\nThe biblical model and parallels: Nathan delivered personal rebuke through a parable, comparable in purpose to personal testimonies and correction. Jeremiah wrote counsel to a particular community, paralleling letters to churches and individuals. Ezekiel used symbolic actions and representations, comparable to symbolic visions and illustrative imagery. John’s Revelation presents apocalyptic visions, paralleling visions of the Great Controversy. Moses’ Deuteronomy combines historical review and covenant instruction, comparable to biblical exposition and practical instruction.\n\nThe theological principle: The purpose of prophetic communication helps determine its form. Personal testimony, historical narrative, symbolic vision, and theological exposition should be interpreted with attention to their different literary genres.",
+      "passages": [
+        {
+          "id": "forms-of-communication-heb-1-1",
+          "reference": "Hebrews 1:1",
+          "apiPassages": [
+            "HEB.1.1"
+          ]
+        },
+        {
+          "id": "forms-of-communication-2sa-12-1-2sa-12-31",
+          "reference": "2 Samuel 12",
+          "apiPassages": [
+            "2SA.12.1-2SA.12.31"
+          ],
+          "note": "Nathan’s parable and personal rebuke appear in verses 1–14."
+        },
+        {
+          "id": "forms-of-communication-jer-29-1-jer-29-32",
+          "reference": "Jeremiah 29",
+          "apiPassages": [
+            "JER.29.1-JER.29.32"
+          ],
+          "note": "Written counsel to the exiles."
+        },
+        {
+          "id": "forms-of-communication-ezk-4-1-ezk-4-17",
+          "reference": "Ezekiel 4",
+          "apiPassages": [
+            "EZK.4.1-EZK.4.17"
+          ],
+          "note": "Symbolic actions and representations."
+        },
+        {
+          "id": "forms-of-communication-rev-1-1-rev-1-2",
+          "reference": "Revelation 1:1–2, 10–11",
+          "apiPassages": [
+            "REV.1.1-REV.1.2",
+            "REV.1.10-REV.1.11"
+          ],
+          "note": "Representative readings from Revelation, the book cited in the study for apocalyptic visions."
+        },
+        {
+          "id": "forms-of-communication-deu-1-1-deu-1-5",
+          "reference": "Deuteronomy 1:1–5",
+          "apiPassages": [
+            "DEU.1.1-DEU.1.5"
+          ],
+          "note": "Representative introduction to Moses’ historical review and instruction in Deuteronomy."
+        },
+        {
+          "id": "forms-of-communication-deu-6-1-deu-6-9",
+          "reference": "Deuteronomy 6:1–9",
+          "apiPassages": [
+            "DEU.6.1-DEU.6.9"
+          ],
+          "note": "Representative covenant instruction from Deuteronomy, the book cited in the study."
+        }
+      ]
+    },
+    {
+      "id": "imperfect-messengers",
+      "title": "VI. Can an Imperfect Person Communicate an Authoritative Divine Message?",
+      "summary": "Ellen White’s experience: She experienced physical weakness, discouragement, limitations in knowledge, and ordinary human difficulties. She distinguished between messages she believed God had given her and personal opinions on matters for which she had received no special revelation. Prophetic inspiration does not make every word spoken by a prophet in every circumstance prophetically authoritative.\n\nThe biblical model: The treasure is held in earthen vessels. Elijah became discouraged and requested death. Jeremiah struggled emotionally with his calling. Jonah resisted God’s commission and became angry at His mercy. Peter acted inconsistently with the gospel and required correction. Divine calling does not remove human weakness or guarantee personal infallibility.\n\nThe theological principle: A prophet’s authority derives from the divine message, not the perfection of the human messenger. This guards against rejecting God’s message because its messenger is human and against treating the messenger as divinely infallible.\n\nDiscussion question: Why is it important to distinguish between the inspiration of a prophetic message and the personal infallibility of the prophet?",
+      "passages": [
+        {
+          "id": "imperfect-messengers-2co-4-7",
+          "reference": "2 Corinthians 4:7",
+          "apiPassages": [
+            "2CO.4.7"
+          ]
+        },
+        {
+          "id": "imperfect-messengers-1ki-19-4",
+          "reference": "1 Kings 19:4",
+          "apiPassages": [
+            "1KI.19.4"
+          ]
+        },
+        {
+          "id": "imperfect-messengers-jer-20-7-jer-20-9",
+          "reference": "Jeremiah 20:7–9",
+          "apiPassages": [
+            "JER.20.7-JER.20.9"
+          ]
+        },
+        {
+          "id": "imperfect-messengers-jon-4-1-jon-4-3",
+          "reference": "Jonah 4:1–3",
+          "apiPassages": [
+            "JON.4.1-JON.4.3"
+          ]
+        },
+        {
+          "id": "imperfect-messengers-gal-2-11-gal-2-14",
+          "reference": "Galatians 2:11–14",
+          "apiPassages": [
+            "GAL.2.11-GAL.2.14"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purpose-of-revelation",
+      "title": "VII. What Is the Ultimate Purpose of Prophetic Revelation?",
+      "summary": "Ellen White’s experience: A dominant theme of her writings is the revelation of God’s character through Jesus Christ. They direct attention to Christ’s life, sacrifice, heavenly ministry, and work of restoring the divine image in humanity. She also directed believers to Scripture as the authoritative standard for testing teachings and claims to prophetic inspiration.\n\nThe biblical model: Jesus says the Scriptures testify of Him. Revelation connects the testimony of Jesus with the spirit of prophecy. Scripture makes us wise unto salvation through faith in Christ Jesus, and beholding the Lord’s glory transforms us into His image.\n\nThe theological principle: Divine revelation does more than communicate information. It reveals God’s character, brings humanity into a saving relationship with Christ, and restores His image in those who behold Him. The prophetic gift is fundamentally relational, redemptive, and Christ-centered.",
+      "passages": [
+        {
+          "id": "purpose-of-revelation-jhn-5-39",
+          "reference": "John 5:39",
+          "apiPassages": [
+            "JHN.5.39"
+          ]
+        },
+        {
+          "id": "purpose-of-revelation-rev-19-10",
+          "reference": "Revelation 19:10",
+          "apiPassages": [
+            "REV.19.10"
+          ]
+        },
+        {
+          "id": "purpose-of-revelation-2ti-3-15",
+          "reference": "2 Timothy 3:15",
+          "apiPassages": [
+            "2TI.3.15"
+          ]
+        },
+        {
+          "id": "purpose-of-revelation-2co-3-18",
+          "reference": "2 Corinthians 3:18",
+          "apiPassages": [
+            "2CO.3.18"
+          ]
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "To know God is to love Him; His character must be manifested in contrast to the character of Satan.",
+          "author": "Ellen G. White",
+          "source": "The Desire of Ages, p. 22"
+        }
+      ]
+    }
+  ]
+}

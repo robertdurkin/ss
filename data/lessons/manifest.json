@@ -1,5 +1,5 @@
 {
-  "defaultLesson": "lesson-03",
+  "defaultLesson": "lesson-06",
   "lessons": [
     {
       "id": "lesson-01",
@@ -18,6 +18,12 @@
       "number": 3,
       "title": "Old Testament Prophets",
       "file": "lesson-03.json"
+    },
+    {
+      "id": "lesson-06",
+      "number": 6,
+      "title": "Revelation and Inspiration and The Prophetic Writings",
+      "file": "lesson-06.json"
     },
     {
       "id": "lesson-08",
