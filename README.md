@@ -106,6 +106,24 @@ Quotation text supports the following formatting tags: `<b>`, `<u>`, `<i>`, `<st
 
 To make a different lesson load by default, change `defaultLesson` in the manifest. The selector and bookmarkable `?lesson=` URL require no HTML or JavaScript changes.
 
+### Add images
+
+Add an optional `images` array at the top level of a lesson or inside any theme:
+
+```json
+"images": [
+  {
+    "url": "https://example.com/images/lesson-map.jpg",
+    "alt": "Map showing the route from Egypt to Canaan",
+    "caption": "Israel’s journey toward the promised land."
+  }
+]
+```
+
+Each image requires `url` and `alt`; `caption` is optional plain text. Use descriptive alt text, or `"alt": ""` for a purely decorative image. URLs may be HTTP(S) addresses or local paths such as `/public/images/lesson-map.jpg` (place that file in `public/images/`). Relative paths resolve against the page URL, not the lesson JSON file. Other URL schemes are not supported.
+
+Lesson images appear before the first theme. Theme images appear after its summary and before passages and quotations. Images display in array order, load lazily, and shrink to fit the screen without cropping. Existing lessons need no changes. Lesson content, including images, remains visible if the Scripture API is unavailable. Restart the Node service after editing lesson definitions.
+
 ## API endpoint
 
 The browser requests a complete lesson in one translation:

@@ -3,6 +3,7 @@ import { readFile, stat } from "node:fs/promises";
 import { basename, dirname, extname, join, normalize, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { contentToVerses } from "./lib/scripture-content.mjs";
+import { validateImages } from "./lib/lesson-images.mjs";
 
 const host = process.env.HOST || "127.0.0.1";
 const port = Number(process.env.PORT || 4173);
@@ -19,6 +20,12 @@ const mimeTypes = {
   ".mjs": "text/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
   ".svg": "image/svg+xml",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".webp": "image/webp",
+  ".gif": "image/gif",
+  ".avif": "image/avif",
 };
 
 async function readJson(filePath) {
@@ -55,8 +62,10 @@ function validateLesson(lesson, entry) {
     throw new Error(`Lesson definition ${entry.file} is invalid.`);
   }
 
+  validateImages(lesson.images, entry.file);
   const passageIds = new Set();
   for (const theme of lesson.themes) {
+    validateImages(theme.images, `${entry.file}: ${theme.title}`);
     const passages = theme.passages ?? [];
     const quotes = theme.quotes ?? [];
     const validCollections = Array.isArray(passages) && Array.isArray(quotes);

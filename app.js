@@ -1,4 +1,5 @@
 import { sanitizeQuoteHtml } from "./lib/quote-html.mjs";
+import { imagesMarkup, validateImages } from "./lib/lesson-images.mjs";
 
 const translationNames = {
   KJV: "King James Version",
@@ -77,7 +78,7 @@ function quoteMarkup(quote) {
 }
 
 function renderThemes(data, translation) {
-  content.innerHTML = state.lesson.themes
+  content.innerHTML = imagesMarkup(state.lesson.images) + state.lesson.themes
     .map((theme, themeIndex) => {
       const passageCards = (theme.passages || [])
         .map((passage, passageIndex) => {
@@ -107,7 +108,7 @@ function renderThemes(data, translation) {
               <p>${escapeHtml(theme.summary)}</p>
             </div>
           </div>
-          <div class="lesson-items">${passageCards}${quoteCards}</div>
+          <div class="lesson-items">${imagesMarkup(theme.images)}${passageCards}${quoteCards}</div>
         </section>`;
     })
     .join("");
@@ -143,10 +144,7 @@ async function loadTranslation(translation) {
       loadTranslation("KJV");
       return;
     }
-    content.innerHTML = `
-      <div class="loading-state">
-        <p>Scripture text could not be loaded. Please check the API.Bible connection.</p>
-      </div>`;
+    renderThemes({}, translation);
   }
 }
 
@@ -166,6 +164,8 @@ async function selectLesson(lessonId, { updateUrl = true } = {}) {
     if (!response.ok) throw new Error(`Lesson ${lessonEntry.number} could not be loaded.`);
     const lesson = await response.json();
     if (lessonRequestId !== state.lessonRequestId) return;
+    validateImages(lesson.images, lessonEntry.file);
+    for (const theme of lesson.themes) validateImages(theme.images, `${lessonEntry.file}: ${theme.title}`);
 
     state.lessonId = lessonEntry.id;
     state.lesson = lesson;

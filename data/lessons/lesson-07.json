@@ -1,0 +1,181 @@
+{
+  "id": "lesson-07",
+  "number": 7,
+  "title": "Now Hear This!",
+  "titleAccent": "Hear This!",
+  "intro": "November 7–13, 2026. Theme: The Great Controversy Over the Voice of God: Why Humanity Resists Divine Revelation.\n\nIn earlier studies, we established that God communicates through prophets to reveal His character, restore His image in humanity, and maintain a saving relationship with fallen humanity. This week's lesson addresses the other side of that communication: Why do human beings resist the very messages God sends for their salvation?",
+  "heroQuote": "The great controversy is fundamentally a conflict over whose word can be trusted and whose character will be reproduced in humanity.",
+  "focus": {
+    "value": "03",
+    "label": "Responses to Prophetic Revelation"
+  },
+  "footer": {
+    "text": "Now all these things happened unto them for ensamples: and they are written for our admonition, upon whom the ends of the world are come.",
+    "reference": "1 Corinthians 10:11",
+    "translation": "KJV"
+  },
+  "themes": [
+    {
+      "id": "whose-voice-we-trust",
+      "title": "I. Introduction: The Great Controversy Is a Conflict Over Whose Voice We Will Trust",
+      "summary": "Eden introduced a conflict over whether humanity would trust God's goodness or Satan's accusations. Prophetic messages continue God's work of restoring that trust and renewing His image in us.",
+      "passages": [
+        {
+          "id": "whose-voice-we-trust-gen-3-1-gen-3-6",
+          "reference": "Genesis 3:1–6",
+          "apiPassages": [
+            "GEN.3.1-GEN.3.6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fear-and-unbelief",
+      "title": "II. The First Response to Prophecy: Fear and Unbelief",
+      "summary": "Israel's fear turned into rebellion when visible dangers outweighed confidence in God's promises. Joshua and Caleb show how trust in His character changes our response to the same difficult circumstances.",
+      "passages": [
+        {
+          "id": "fear-and-unbelief-num-13-26-num-13-33",
+          "reference": "Numbers 13:26–33; 14:1–11",
+          "apiPassages": [
+            "NUM.13.26-NUM.13.33",
+            "NUM.14.1-NUM.14.11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "preserving-self-rule",
+      "title": "III. The Second Response: Rejecting the Message to Preserve Self-Rule",
+      "summary": "Jehoiakim burned Jeremiah's scroll to resist correction and preserve his own authority. His response illustrates how pride and cherished sin can lead people to reject warnings God sends out of compassion to invite repentance and forgiveness.",
+      "passages": [
+        {
+          "id": "preserving-self-rule-jer-36-20-jer-36-32",
+          "reference": "Jeremiah 36:20–32",
+          "apiPassages": [
+            "JER.36.20-JER.36.32"
+          ]
+        },
+        {
+          "id": "preserving-self-rule-jer-36-3",
+          "reference": "Jeremiah 36:3",
+          "apiPassages": [
+            "JER.36.3"
+          ]
+        },
+        {
+          "id": "preserving-self-rule-2ch-36-15",
+          "reference": "2 Chronicles 36:15",
+          "apiPassages": [
+            "2CH.36.15"
+          ]
+        },
+        {
+          "id": "preserving-self-rule-jhn-3-19-jhn-3-21",
+          "reference": "John 3:19–21",
+          "apiPassages": [
+            "JHN.3.19-JHN.3.21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honoring-prophets-rejecting-message",
+      "title": "IV. The Third Response: Honoring the Prophets While Rejecting Their Message",
+      "summary": "The Pharisees celebrated earlier prophets while resisting their message and rejecting Christ. Truly receiving prophecy means allowing it to lead us into a relationship with Jesus that changes our character.",
+      "passages": [
+        {
+          "id": "honoring-prophets-rejecting-message-mat-23-29-mat-23-35",
+          "reference": "Matthew 23:29–35",
+          "apiPassages": [
+            "MAT.23.29-MAT.23.35"
+          ]
+        },
+        {
+          "id": "honoring-prophets-rejecting-message-jhn-5-39-jhn-5-40",
+          "reference": "John 5:39–40",
+          "apiPassages": [
+            "JHN.5.39-JHN.5.40"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restoring-gods-image",
+      "title": "V. The Purpose of Prophetic Warnings: Restoring God's Image in Humanity",
+      "summary": "Paul uses Israel's failures to help believers recognize destructive desires, idolatry, and distrust in themselves. These warnings call us to humility and a character shaped by Christ, guarding against the assumption that we cannot fall.",
+      "passages": [
+        {
+          "id": "restoring-gods-image-1co-10-6-1co-10-12",
+          "reference": "1 Corinthians 10:6–12",
+          "apiPassages": [
+            "1CO.10.6-1CO.10.12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "underlying-spiritual-problem",
+      "title": "Different Manifestations of the Same Underlying Problem",
+      "summary": "Fear, pride, persistent resistance, hypocrisy, and complacency take different forms but share a common root: placing human preferences above God's revelation. These biblical examples invite us to examine how we respond when His word challenges us.",
+      "passages": [
+        {
+          "id": "underlying-spiritual-problem-2ch-36-15-2ch-36-16",
+          "reference": "2 Chronicles 36:15–16",
+          "apiPassages": [
+            "2CH.36.15-2CH.36.16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "final-generation",
+      "title": "The connection to the final generation",
+      "summary": "The lesson connects Eden's deception with Revelation's final crisis: both turn on trust in God's character and word. Prophetic guidance prepares believers to recognize counterfeit authority and remain faithful as that trust is tested.",
+      "passages": [
+        {
+          "id": "final-generation-gen-3-1-gen-3-6",
+          "reference": "Genesis 3:1–6",
+          "apiPassages": [
+            "GEN.3.1-GEN.3.6"
+          ]
+        },
+        {
+          "id": "final-generation-num-14-3",
+          "reference": "Numbers 14:3",
+          "apiPassages": [
+            "NUM.14.3"
+          ]
+        },
+        {
+          "id": "final-generation-2ch-36-15-2ch-36-16",
+          "reference": "2 Chronicles 36:15–16",
+          "apiPassages": [
+            "2CH.36.15-2CH.36.16"
+          ]
+        },
+        {
+          "id": "final-generation-mat-23-29-mat-23-35",
+          "reference": "Matthew 23:29–35",
+          "apiPassages": [
+            "MAT.23.29-MAT.23.35"
+          ]
+        },
+        {
+          "id": "final-generation-1co-10-11",
+          "reference": "1 Corinthians 10:11",
+          "apiPassages": [
+            "1CO.10.11"
+          ]
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "url": "https://chatgpt.com/s/m_6af79b2968a48191ba4490676f958af2",
+      "alt": "Prophecy as an expression of the Circuit of Beneficence",
+      "caption": "Circuit of Beneficence"
+    }
+  ]
+}
