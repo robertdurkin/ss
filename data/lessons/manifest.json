@@ -1,5 +1,5 @@
 {
-  "defaultLesson": "lesson-07",
+  "defaultLesson": "lesson-08",
   "lessons": [
     {
       "id": "lesson-01",
@@ -34,32 +34,8 @@
     {
       "id": "lesson-08",
       "number": 8,
-      "title": "The Power of Christ's Resurrection",
+      "title": "The Gift of Prophecy",
       "file": "lesson-08.json"
-    },
-    {
-      "id": "lesson-09",
-      "number": 9,
-      "title": "Grace, Mercy, and Comfort",
-      "file": "lesson-09.json"
-    },
-    {
-      "id": "lesson-11",
-      "number": 11,
-      "title": "Stewardship and Mission",
-      "file": "lesson-11.json"
-    },
-    {
-      "id": "lesson-12",
-      "number": 12,
-      "title": "Dealing With False Teachers",
-      "file": "lesson-12.json"
-    },
-    {
-      "id": "lesson-13",
-      "number": 13,
-      "title": "Grace, Love, and Fellowship",
-      "file": "lesson-13.json"
     }
   ]
 }

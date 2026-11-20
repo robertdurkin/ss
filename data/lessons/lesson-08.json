@@ -1,222 +1,360 @@
 {
   "id": "lesson-08",
   "number": 8,
-  "title": "The Power of Christ's Resurrection",
-  "titleAccent": "Resurrection",
-  "intro": "Trace the promise, victory, and present power of the risen Christ through nine connected movements of Scripture.",
-  "heroQuote": "I am the resurrection, and the life.",
+  "title": "The Gift of Prophecy",
+  "titleAccent": "Prophecy",
+  "intro": "November 14–20, 2026. In the great controversy, the conflict is not merely over whether we accept God's Word, but whether we understand it correctly, trust what it reveals about His character, and allow it to transform our lives.",
+  "heroQuote": "Revelation must be correctly understood before it can produce the transformation God intends.",
   "focus": {
-    "value": "01",
-    "label": "Central hope"
+    "value": "06",
+    "label": "Principles of Christ's Interpretation"
   },
   "footer": {
-    "text": "But now is Christ risen from the dead, and become the firstfruits of them that slept.",
-    "reference": "1 Corinthians 15:20",
+    "text": "And beginning at Moses and all the prophets, he expounded unto them in all the scriptures the things concerning himself.",
+    "reference": "Luke 24:27",
     "translation": "KJV"
   },
   "themes": [
     {
-      "id": "multi-dimensional-victory",
-      "title": "Christ's Multi-Dimensional Victory",
-      "summary": "The first promise: the serpent's defeat through the woman's seed.",
+      "id": "revelation-and-demonstration",
+      "title": "Revelation, Demonstration, and Understanding",
+      "summary": "God answers the great controversy's questions about His trustworthiness and character through revelation and demonstration. Correctly understanding His Word enables the transformation that makes His character visible in our lives.",
       "passages": [
         {
-          "id": "genesis-3-15",
-          "reference": "Genesis 3:15",
-          "apiPassages": ["GEN.3.15"]
+          "id": "revelation-and-demonstration-luk-24-27",
+          "reference": "Luke 24:27",
+          "apiPassages": [
+            "LUK.24.27"
+          ]
         }
       ]
     },
     {
-      "id": "resurrection-gospel",
-      "title": "The Resurrection is the Gospel",
-      "summary": "The apostolic message rests on Christ crucified, risen, and witnessed.",
+      "id": "jesus-grew-in-wisdom",
+      "title": "Jesus Grew in Wisdom Through Scripture",
+      "summary": "In His humanity, Jesus studied and lived by the Scriptures He had inspired. Taught by His mother and guided by God's Word, He grew in wisdom and prepared for His mission, temptations, and suffering.",
       "passages": [
         {
-          "id": "1-corinthians-15-1-8",
-          "reference": "1 Corinthians 15:1–8",
-          "apiPassages": ["1CO.15.1-1CO.15.8"]
+          "id": "jesus-grew-in-wisdom-luk-2-52",
+          "reference": "Luke 2:52",
+          "apiPassages": [
+            "LUK.2.52"
+          ]
         },
         {
-          "id": "1-corinthians-1-17-18",
-          "reference": "1 Corinthians 1:17–18",
-          "apiPassages": ["1CO.1.17-1CO.1.18"]
+          "id": "jesus-grew-in-wisdom-psa-119-97-psa-119-100",
+          "reference": "Psalm 119:97–100",
+          "apiPassages": [
+            "PSA.119.97-PSA.119.100"
+          ]
         },
         {
-          "id": "1-corinthians-2-2",
-          "reference": "1 Corinthians 2:2",
-          "apiPassages": ["1CO.2.2"]
+          "id": "jesus-grew-in-wisdom-psa-19-7",
+          "reference": "Psalm 19:7",
+          "apiPassages": [
+            "PSA.19.7"
+          ]
+        },
+        {
+          "id": "jesus-grew-in-wisdom-pro-2-1-pro-2-6",
+          "reference": "Proverbs 2:1–6",
+          "apiPassages": [
+            "PRO.2.1-PRO.2.6"
+          ]
+        },
+        {
+          "id": "jesus-grew-in-wisdom-2ti-3-15",
+          "reference": "2 Timothy 3:15",
+          "apiPassages": [
+            "2TI.3.15"
+          ]
+        }
+      ],
+      "quotes": [
+        {
+          "quote": "His mother was His first human teacher. From her lips and from the scrolls of the prophets, He learned of heavenly things. The very words which He Himself had spoken to Moses for Israel He was now taught at His mother’s knee.",
+          "author": "Ellen G. White",
+          "source": "The Desire of Ages, p. 70, paragraph 1 (DA 70.1)"
         }
       ]
     },
     {
-      "id": "christianity-collapses-without-resurrection",
-      "title": "Without Resurrection, Christianity Collapses",
-      "summary": "If Christ is not raised, faith is empty and hope ends at the grave.",
+      "id": "messianic-mission",
+      "title": "Jesus Discovered His Messianic Mission Through Scripture",
+      "summary": "The sacrifices, temple services, prophecies, and stories of Scripture illuminated Christ's mission. Their pictures of mediation, sacrifice, suffering, and redemption helped Him understand the work He came to fulfill."
+    },
+    {
+      "id": "time-fulfilled",
+      "title": "Jesus Recognized When the Time Was Fulfilled",
+      "summary": "The lesson connects Daniel's prophecy with the Messiah's appearance and anointing in AD 27. Jesus understood the appointed time for His ministry through the prophetic Scriptures.",
       "passages": [
         {
-          "id": "1-corinthians-15-12-20",
-          "reference": "1 Corinthians 15:12–20",
-          "apiPassages": ["1CO.15.12-1CO.15.20"]
-        },
-        {
-          "id": "revelation-3-17",
-          "reference": "Revelation 3:17",
-          "apiPassages": ["REV.3.17"]
+          "id": "time-fulfilled-dan-9-24-dan-9-27",
+          "reference": "Daniel 9:24–27",
+          "apiPassages": [
+            "DAN.9.24-DAN.9.27"
+          ]
         }
       ]
     },
     {
-      "id": "christ-the-firstfruits",
-      "title": "Christ the Firstfruits",
-      "summary": "His resurrection guarantees the harvest still to come.",
+      "id": "faith-and-failures",
+      "title": "Jesus Learned From the Faith and Failures of Others",
+      "summary": "The lives of earlier believers supplied examples of faithfulness under trial and lessons from human failure. Their experiences anticipated and illuminated the challenges of Christ's own mission."
+    },
+    {
+      "id": "scripture-and-great-controversy",
+      "title": "Jesus Found the Great Controversy in Scripture",
+      "summary": "Biblical accounts of rebellion, suffering, deliverance, and judgment revealed the conflict between God and Satan. In His humanity, Christ became a student of the very stories and prophecies He had inspired."
+    },
+    {
+      "id": "unity-of-scripture",
+      "title": "I. Interpret Scripture as a Unified Revelation",
+      "summary": "Jesus read Scripture as a coherent revelation of God's redemptive purposes and called His disciples to believe all the prophets. The lesson applies this principle to death and resurrection, interpreting Paul's desire to be with Christ alongside clearer passages about Christ's return.",
       "passages": [
         {
-          "id": "1-corinthians-15-20-28",
-          "reference": "1 Corinthians 15:20–28",
-          "apiPassages": ["1CO.15.20-1CO.15.28"]
+          "id": "unity-of-scripture-luk-24-27",
+          "reference": "Luke 24:27",
+          "apiPassages": [
+            "LUK.24.27"
+          ]
         },
         {
-          "id": "hebrews-2-14",
-          "reference": "Hebrews 2:14",
-          "apiPassages": ["HEB.2.14"]
+          "id": "unity-of-scripture-luk-24-25",
+          "reference": "Luke 24:25",
+          "apiPassages": [
+            "LUK.24.25"
+          ]
         },
         {
-          "id": "revelation-1-5",
-          "reference": "Revelation 1:5",
-          "apiPassages": ["REV.1.5"]
+          "id": "unity-of-scripture-2co-5-8",
+          "reference": "2 Corinthians 5:8",
+          "apiPassages": [
+            "2CO.5.8"
+          ]
         },
         {
-          "id": "revelation-1-18",
-          "reference": "Revelation 1:18",
-          "apiPassages": ["REV.1.18"]
+          "id": "unity-of-scripture-1co-15-51-1co-15-54",
+          "reference": "1 Corinthians 15:51–54",
+          "apiPassages": [
+            "1CO.15.51-1CO.15.54"
+          ]
+        },
+        {
+          "id": "unity-of-scripture-1th-4-16-1th-4-17",
+          "reference": "1 Thessalonians 4:16–17",
+          "apiPassages": [
+            "1TH.4.16-1TH.4.17"
+          ]
+        },
+        {
+          "id": "unity-of-scripture-2ti-4-8",
+          "reference": "2 Timothy 4:8",
+          "apiPassages": [
+            "2TI.4.8"
+          ]
+        },
+        {
+          "id": "unity-of-scripture-ecc-9-5",
+          "reference": "Ecclesiastes 9:5",
+          "apiPassages": [
+            "ECC.9.5"
+          ]
+        },
+        {
+          "id": "unity-of-scripture-jhn-11-11-jhn-11-14",
+          "reference": "John 11:11–14",
+          "apiPassages": [
+            "JHN.11.11-JHN.11.14"
+          ]
+        },
+        {
+          "id": "unity-of-scripture-jhn-6-40",
+          "reference": "John 6:40",
+          "apiPassages": [
+            "JHN.6.40"
+          ]
         }
       ]
     },
     {
-      "id": "immortality-of-the-soul",
-      "title": "Paul Challenges the Immortality of the Soul Doctrine",
-      "summary": "The dead sleep in Christ, awaiting the voice and return of their Lord.",
+      "id": "stages-of-fulfillment",
+      "title": "II. Recognize Historical Context and Stages of Fulfillment",
+      "summary": "Jesus distinguished the prophecy fulfilled in His present ministry from judgment still to come. Likewise, the lesson reads His warning about Jerusalem in its first-century setting while recognizing its broader significance for the end of the age.",
       "passages": [
         {
-          "id": "1-corinthians-15-22-23",
-          "reference": "1 Corinthians 15:22–23",
-          "apiPassages": ["1CO.15.22-1CO.15.23"]
+          "id": "stages-of-fulfillment-luk-4-16-luk-4-21",
+          "reference": "Luke 4:16–21",
+          "apiPassages": [
+            "LUK.4.16-LUK.4.21"
+          ]
         },
         {
-          "id": "1-thessalonians-4-13-17",
-          "reference": "1 Thessalonians 4:13–17",
-          "apiPassages": ["1TH.4.13-1TH.4.17"]
+          "id": "stages-of-fulfillment-isa-61-1-isa-61-2",
+          "reference": "Isaiah 61:1–2",
+          "apiPassages": [
+            "ISA.61.1-ISA.61.2"
+          ]
         },
         {
-          "id": "john-5-28-29",
-          "reference": "John 5:28–29",
-          "apiPassages": ["JHN.5.28-JHN.5.29"]
+          "id": "stages-of-fulfillment-mat-24-15-mat-24-21",
+          "reference": "Matthew 24:15–21",
+          "apiPassages": [
+            "MAT.24.15-MAT.24.21"
+          ]
         },
         {
-          "id": "john-11-11-14-23-25",
-          "reference": "John 11:11–14, 23–25",
-          "apiPassages": ["JHN.11.11-JHN.11.14", "JHN.11.23-JHN.11.25"]
+          "id": "stages-of-fulfillment-mat-24-15-mat-24-16",
+          "reference": "Matthew 24:15–16",
+          "apiPassages": [
+            "MAT.24.15-MAT.24.16"
+          ]
         }
       ]
     },
     {
-      "id": "second-death-experience",
-      "title": "Christ's Second Death Experience",
-      "summary": "Christ tasted death for all, bearing sin's wages and breaking its claim.",
+      "id": "full-biblical-testimony",
+      "title": "III. Let the Full Biblical Testimony Govern Interpretation",
+      "summary": "Satan used a promise of protection to tempt Jesus into presumption, but Christ answered with Scripture's prohibition against testing God. A faithful interpretation considers the whole biblical witness and never turns a promise into permission for recklessness.",
       "passages": [
         {
-          "id": "isaiah-53-12",
-          "reference": "Isaiah 53:12",
-          "apiPassages": ["ISA.53.12"]
+          "id": "full-biblical-testimony-mat-4-6",
+          "reference": "Matthew 4:6",
+          "apiPassages": [
+            "MAT.4.6"
+          ]
         },
         {
-          "id": "hebrews-2-9",
-          "reference": "Hebrews 2:9",
-          "apiPassages": ["HEB.2.9"]
-        },
-        {
-          "id": "romans-6-23",
-          "reference": "Romans 6:23",
-          "apiPassages": ["ROM.6.23"]
-        },
-        {
-          "id": "2-timothy-1-10",
-          "reference": "2 Timothy 1:10",
-          "apiPassages": ["2TI.1.10"]
+          "id": "full-biblical-testimony-deu-6-16",
+          "reference": "Deuteronomy 6:16",
+          "apiPassages": [
+            "DEU.6.16"
+          ]
         }
       ]
     },
     {
-      "id": "resurrection-power-begins-now",
-      "title": "Resurrection Power Begins Now",
-      "summary": "The life of the age to come is already remaking those joined to Christ.",
+      "id": "scripture-above-tradition",
+      "title": "IV. Place Scripture Above Human Tradition",
+      "summary": "Jesus challenged traditions that displaced God's commandments and obscured His identity. Applying that principle to the Lord's day, the lesson identifies the seventh-day Sabbath as God's holy day through explicit biblical statements rather than inherited tradition.",
       "passages": [
         {
-          "id": "1-corinthians-6-9-11",
-          "reference": "1 Corinthians 6:9–11",
-          "apiPassages": ["1CO.6.9-1CO.6.11"]
+          "id": "scripture-above-tradition-mrk-7-8-mrk-7-9",
+          "reference": "Mark 7:8–9",
+          "apiPassages": [
+            "MRK.7.8-MRK.7.9"
+          ]
         },
         {
-          "id": "ephesians-1-19-20",
-          "reference": "Ephesians 1:19–20",
-          "apiPassages": ["EPH.1.19-EPH.1.20"]
+          "id": "scripture-above-tradition-rev-1-10",
+          "reference": "Revelation 1:10",
+          "apiPassages": [
+            "REV.1.10"
+          ]
         },
         {
-          "id": "ephesians-2-1",
-          "reference": "Ephesians 2:1",
-          "apiPassages": ["EPH.2.1"]
+          "id": "scripture-above-tradition-exo-20-10",
+          "reference": "Exodus 20:10",
+          "apiPassages": [
+            "EXO.20.10"
+          ]
         },
         {
-          "id": "romans-6-3-11",
-          "reference": "Romans 6:3–11",
-          "apiPassages": ["ROM.6.3-ROM.6.11"]
+          "id": "scripture-above-tradition-exo-31-13",
+          "reference": "Exodus 31:13",
+          "apiPassages": [
+            "EXO.31.13"
+          ]
+        },
+        {
+          "id": "scripture-above-tradition-lev-19-3",
+          "reference": "Leviticus 19:3",
+          "apiPassages": [
+            "LEV.19.3"
+          ]
+        },
+        {
+          "id": "scripture-above-tradition-isa-58-13",
+          "reference": "Isaiah 58:13",
+          "apiPassages": [
+            "ISA.58.13"
+          ]
+        },
+        {
+          "id": "scripture-above-tradition-ezk-20-12-ezk-20-20",
+          "reference": "Ezekiel 20:12, 20",
+          "apiPassages": [
+            "EZK.20.12",
+            "EZK.20.20"
+          ]
+        },
+        {
+          "id": "scripture-above-tradition-neh-9-14",
+          "reference": "Nehemiah 9:14",
+          "apiPassages": [
+            "NEH.9.14"
+          ]
+        },
+        {
+          "id": "scripture-above-tradition-mrk-2-27-mrk-2-28",
+          "reference": "Mark 2:27–28",
+          "apiPassages": [
+            "MRK.2.27-MRK.2.28"
+          ]
         }
       ]
     },
     {
-      "id": "risen-christ-ministers-now",
-      "title": "The Risen Christ Ministers Now",
-      "summary": "The enthroned Christ serves as priest and intercessor for His people.",
+      "id": "law-and-character",
+      "title": "V. Recognize God's Character in His Law",
+      "summary": "Jesus showed that God's commandments address thoughts, motives, and love for others, including enemies. An interpretation that produces outward doctrinal conformity without Christlike love misses the law's purpose of reflecting God's character."
+    },
+    {
+      "id": "willingness-to-obey",
+      "title": "VI. Be Willing to Obey the Truth",
+      "summary": "Jesus submitted to Scripture and the Father's revealed purpose even when obedience led to suffering and death. Faithful interpretation requires a willingness to obey God's truth rather than reshape it around personal preferences.",
       "passages": [
         {
-          "id": "hebrews-8-1-2",
-          "reference": "Hebrews 8:1–2",
-          "apiPassages": ["HEB.8.1-HEB.8.2"]
+          "id": "willingness-to-obey-mat-4-4-mat-4-7-mat-4-10",
+          "reference": "Matthew 4:4, 7, 10",
+          "apiPassages": [
+            "MAT.4.4",
+            "MAT.4.7",
+            "MAT.4.10"
+          ]
         },
         {
-          "id": "hebrews-7-25",
-          "reference": "Hebrews 7:25",
-          "apiPassages": ["HEB.7.25"]
+          "id": "willingness-to-obey-jhn-10-35",
+          "reference": "John 10:35",
+          "apiPassages": [
+            "JHN.10.35"
+          ]
         },
         {
-          "id": "hebrews-9-28",
-          "reference": "Hebrews 9:28",
-          "apiPassages": ["HEB.9.28"]
-        }        
+          "id": "willingness-to-obey-mat-26-54",
+          "reference": "Matthew 26:54",
+          "apiPassages": [
+            "MAT.26.54"
+          ]
+        },
+        {
+          "id": "willingness-to-obey-jhn-19-28",
+          "reference": "John 19:28",
+          "apiPassages": [
+            "JHN.19.28"
+          ]
+        }
       ]
     },
     {
-      "id": "great-controversy-will-end",
-      "title": "Resurrection Means the Great Controversy Will End",
-      "summary": "Every enemy is put down, death is destroyed, and sorrow passes away.",
-      "passages": [
-        {
-          "id": "1-corinthians-15-24-28",
-          "reference": "1 Corinthians 15:24–28",
-          "apiPassages": ["1CO.15.24-1CO.15.28"]
-        },
-        {
-          "id": "revelation-20-14",
-          "reference": "Revelation 20:14",
-          "apiPassages": ["REV.20.14"]
-        },
-        {
-          "id": "revelation-21-4",
-          "reference": "Revelation 21:4",
-          "apiPassages": ["REV.21.4"]
-        }
-      ]
+      "id": "interpreting-ellen-white",
+      "title": "Applying Christ's Principles to Ellen White's Writings",
+      "summary": "Read Ellen White's counsel in its historical and literary context and alongside her broader writings. Distinguish enduring principles from period practices, keep Scripture as the final doctrinal standard, and seek the restored relationship with God that prophetic counsel intends."
+    },
+    {
+      "id": "final-generation",
+      "title": "Faithfulness in the Final Crisis",
+      "summary": "From Eden to the final crisis, Satan distorts God's Word to undermine trust and redirect worship. Following Christ's interpretive principles prepares believers to resist deception and reflect God's character, demonstrating the transforming power of His grace."
     }
   ]
 }
